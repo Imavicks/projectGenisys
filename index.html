@@ -6,8 +6,292 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genisys e-Commerce</title>
     <link rel="stylesheet" href="/resources/css/style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="/resources/js/script.js" ></script>
+    <!-- Start of header -->
+    <header class="main">
+        <div class="base">
+            <div><h1>KICKIN' IT</h1></div>
+            <div class="base-search">
+                <input type="search" placeholder="Search Product">
+                <div class="base-sel">
+                    <select name="" id="sel_1"><option value="">All Categories</option></select>
+                    <div class="base-img_1">
+                        <img src="resources/assets/icons8-search-50.png" class="search">
+                    </div>
+                </div>
+            </div>
+            <div class="base-img_2">
+                <img src="resources/assets/icons8-new-shopping-cart-50.png" alt="cart" class="cart">
+            </div>
+            <div class="profile">
+                <a href="#"><img src="resources/assets/profile_pic.png" alt="Profile Picture" class="profile_pic"></a>
+            </div>
+        </div>
+        <!-- Navigation menu -->
+        <div class="dashboard">
+            <div class="categories">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Location</a></li>
+                        <li><a href="#">Return Order</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <div><a href="#"><img src="resources/assets/headphone.png" alt="Headphone" class="contact_pic"></a></div>
+                    <div class="contact_info">
+                        <p class="contact_info_1">Contact Us 24/7</p>
+                        <p class="contact_info_2">+12012987481</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <!--End of header-->
+    <div class="directory">
+        <a href="#">Home<img src="resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">All Categories<img src="resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">Shoes<img src="resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">Sports<img src="resources/assets/icons8-arrow-50.png"></a>
+        <a href="#"><span>New Balance</span></a>
+    </div>
+    <section class="sect1">
+        <div class="left-container">
+            <h3><b>New Balance 574 Core</b></h3>
+            <div class="gridA">
+                <img src="resources/assets/white 15.jpg" alt="" id="grid1">
+                <div class="shoe-part">
+                    <img src="resources/assets/white 15.jpg" alt="" id="grid2" onclick="changeToGrid1(this.src), addBorder(this)">
+                    <img src="resources/assets/white 20.png" alt="" id="grid3" onclick="changeToGrid1(this.src), addBorder(this)">
+                    <img src="resources/assets/white 21.png" alt="" id="grid4" onclick="changeToGrid1(this.src), addBorder(this)">
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div id="ratingContainer">
+                <div id="stars">
+                  <span class="star" onclick="rateShoes(1)">&#9734;</span>
+                  <span class="star" onclick="rateShoes(2)">&#9734;</span>
+                  <span class="star" onclick="rateShoes(3)">&#9734;</span>
+                  <span class="star" onclick="rateShoes(4)">&#9734;</span>
+                  <span class="star" onclick="rateShoes(5)">&#9734;</span>
+                </div>
+              </div>
+            <div class="grid-selection">
+                <div class="shoe-detail">
+                    <h3><b>&#8358;31,500</b></h3>
+                    <span>50%</span>
+                </div>
+                <h4>&#8358;63000</h4>
+                <p id="color"><b>Colour:</b> Nimbus cloud with white</p>
+                <div class="gridB">
+                    <img src="resources/assets/white 15.jpg" alt="" id="White" onclick="changeGridA(1), changeGridBtxt(1), addBorderB(this), selectImage(this)">
+                    <img src="resources/assets/black 5.png" alt="" id="Black" onclick="changeGridA(2), changeGridBtxt(2), addBorderB(this), selectImage(this)">
+                    <img src="resources/assets/red 18.png" alt="" id="Red" onclick="changeGridA(3), changeGridBtxt(3), addBorderB(this), selectImage(this)">
+                    <img src="resources/assets/blue 12.png" alt="" id="Blue" onclick="changeGridA(4), changeGridBtxt(4), addBorderB(this), selectImage(this)">
+                </div>
+            </div>
+            <div class="btn-selection">
+                <div class="select-size">
+                    <p><b>Select size</b></p>
+                    <button type="button" onclick="selectSize(this)">5</button>
+                    <button type="button" onclick="selectSize(this)">5.5</button>
+                    <button type="button" onclick="selectSize(this)">6</button>
+                    <button type="button" onclick="selectSize(this)">6.5</button>
+                </div>
+                <div class="select-width">
+                    <p><b>Select width</b></p>
+                    <button type="button" onclick="selectWidth(this)">Standard</button>
+                    <button type="button" onclick="selectWidth(this)">Wide</button>
+                </div>
+                <div class="add-cart">
+                    <button type="button" onclick="addToCart()">Add to cart</button>
+                    <img class="love-icon" src="resources/assets/Vector (1).png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- section two begins -->
+     <section class="section-2">
+        <div class="desp-head">
+           <div class="pp ppl"><h2>Description</h2></div> 
+            <div class="pp"><h2>Specification</h2></div>
+            <div class="pp"><h2>Content of delivery</h2></div>
+        </div>
+        <div id="contentContainer"></div>
+        <h2 class="see2">Similar Items You Might Also Like</h2>
+        <div class="seee">
+            <div class="simi-img">
+                <div class="similar-img">
+                 <i class="fa fa-chevron-left"></i><img src="resources/assets/Frame 97.png" alt="">
+                 <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="resources/assets/Vector-3.png">25,500</h4>
+                    <p class="types">5 typesof shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                 </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <img src="resources/assets/My project (1) 1 (1).png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="resources/assets/Vector-3.png" alt="">15,000</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <img src="resources/assets/Frame 97-2.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="resources/assets/Vector-3.png" alt="">28,500</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <img src="resources/assets/Frame 97-3.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="resources/assets/Vector-3.png" alt="">25,500</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <img src="resources/assets/Frame 97-4.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="resources/assets/Vector-3.png" alt="">25,500</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <i class="fa fa-chevron-right"></i><img src="resources/assets/Frame 97-5.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="resources/assets/Vector-3.png" alt="">25,500</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-2 ends -->
+    <footer>
+        <div class="sub">
+        <div class="sub-item">
+            <img src="./resources/assets/newsletter.png" alt="">
+            <div class="sub-writeup">
+                <h4>Join our newsletter and get offers</h4>
+                <h6>Sign up our newsletter</h6>
+            </div>
+        </div>
+        <div class="subscribe">
+            <input type="text" placeholder="Enter your email">
+            <button>SUBSCRIBE</button>
+        </div>
+    </div>
+<div class="foot">
+    <div class="foot-items">
+        <div class="foot-section">
+            <h4>ABOUT US</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                Minus consectetur delectus natus ullam ut, veniam pariatur <br>
+                 laudantium saepe expedita? Culpa.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-skype"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="foot-section">
+            <h4>INFORMATION</h4>
+            <p>About</p>
+            <p>Delivery information</p>
+            <p>Privacy Policy</p>
+            <p>Sales</p>
+            <p>Terms & Conditions</p>
+            <p>EMI Payment</p>
+        </div>
+        <div class="foot-section">
+            <h4>ACCOUNT</h4>
+            <p>My Account</p>
+            <p>My Orders</p>
+            <p>Returns</p>
+            <p>Shipping</p>
+            <p>Wishlist</p>
+            <p>Account Details</p>
+        </div>
+        <div class="foot-section">
+            <h4>CONTACT US</h4>
+            <p>If you have any query, please contact us <br><span>needus24@gmail.com</span></p>
+            <div class="location">
+                <img src="./resources/assets/location.png" alt="">
+                <p>California, USA</p>
+            </div>
+            <div class="phone">
+                <img src="./resources/assets/contact.png" alt="">
+                <p>+12012987481</p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"><p>Copyright. SOW 2023. All Rights Reserved.</p></div>
+</div>
+    </footer>
+    <!--ICONS-->
+    <script src="https://kit.fontawesome.com/937e5bb93a.js" crossorigin="anonymous"></script>
+    <script src="resources/js/script.js"></script>
 </body>
 </html>
