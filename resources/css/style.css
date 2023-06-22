@@ -327,3 +327,32 @@ input {
   position: relative;
   bottom: 3vw;
 }
+
+.grid-selection p {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  position: relative;
+  bottom: 2vw;
+}
+
+.gridB {
+  display: flex;
+  position: relative;
+  bottom: 1vw;
+}
+
+.gridB img {
+  border-radius: 8px;
+  width: 4.7rem;
+  height: 4.7rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#White:hover,
+#Black:hover,
+#Red:hover,
+#Blue:hover {
+  border: 1px solid rgb(103, 103, 196);
+}
