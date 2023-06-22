@@ -162,3 +162,53 @@ input {
   width: 25px;
   height: 25px;
 }
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* stylelint-disable */
+.contact_info_1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ffffff;
+}
+/* stylelint-enable */
+
+/* stylelint-disable */
+.contact_info_2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+/* stylelint-enable */
+
+/* -- End of header style -- */
+.directory {
+  display: flex;
+}
+
+.directory a {
+  position: relative;
+  text-decoration: none;
+  color: gray;
+  font-size: 10px;
+  margin: 10px;
+  top: 20px;
+  left: 5rem;
+}
+
+.directory img {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  margin-left: 5px;
+}
+
