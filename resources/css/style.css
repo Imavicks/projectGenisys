@@ -424,3 +424,61 @@ input {
   top: 2.5vw;
   left: 13vw;
 }
+
+/* section two starts here */
+
+.section-2 {
+  position: relative;
+  height: 120vh;
+  width: 100vw;
+}
+
+.desp-head {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 45px;
+  gap: 230px;
+}
+
+/* stylelint-disable */
+.desp-head h2 {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 28px;
+  font-family: 'Montserrat';
+  color: #191919;
+}
+/* stylelint-enable */
+
+.pp:hover h2 {
+  border-bottom: 2px solid blue;
+}
+
+#contentContainer {
+  position: relative;
+  left: 80px;
+}
+
+.descrip-1 {
+  padding-bottom: 30px;
+  align-items: center;
+  position: relative;
+}
+
+/* stylelint-disable */
+.desp-h4 {
+  position: absolute;
+  font-size: 24px;
+  color: #000;
+  font-style: normal;
+  line-height: 28px;
+  font-weight: 500;
+  padding-top: 20px;
+  font-family: 'Montserrat';
+}
+/* stylelint-enable */
