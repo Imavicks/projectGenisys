@@ -269,3 +269,61 @@ input {
   border: 1px solid rgb(103, 103, 196);
 }
 
+.right-container {
+  margin-top: 3vw;
+  margin-left: 1vw;
+}
+
+#ratingContainer {
+  position: absolute;
+  margin-left: 30vw;
+  margin-top: 10px;
+}
+
+.star {
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+
+.star:hover,
+.star.active {
+  color: orange;
+}
+
+.shoe-detail {
+  display: flex;
+  margin-bottom: 3vw;
+}
+
+.shoe-detail h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.shoe-detail span {
+  background-color: rgb(202, 241, 194);
+  width: 1.9rem;
+  height: 1.1rem;
+  font-size: 1rem;
+  margin-top: 0.5vw;
+  margin-left: 0.3vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.directory a span {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.grid-selection h4 {
+  text-decoration: line-through;
+  font-size: 1rem;
+  color: rgba(155, 155, 155, 1);
+  opacity: 0.7;
+  position: relative;
+  bottom: 3vw;
+}
