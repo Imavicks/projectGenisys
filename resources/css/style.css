@@ -645,3 +645,29 @@ input {
 .fa-star-half-o {
   color: orange;
 }
+
+/* stylelint-disable */
+.number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 5px;
+  position: absolute;
+}
+/* stylelint-enable */
+
+.fa-chevron-right {
+  font-size: 20px;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.472);
+  border: 1px solid  rgba(128, 128, 128, 0.323);
+  border-radius: 50%;
+  padding: 3px;
+  top: 60px;
+  margin-left: 90px;
+}
+
+/* section two ends here */
+
