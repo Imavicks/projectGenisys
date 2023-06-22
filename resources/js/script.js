@@ -1,4 +1,4 @@
-/ function to change grid images on gridA to images on gridB
+// function to change grid images on gridA to images on gridB
 /* eslint-disable */
 function changeGridA(imageNumber) {
 /* eslint-enable */
@@ -75,3 +75,25 @@ function changeToGrid1(newImageSrc) {
       color.textContent = '';
     }
   }
+
+  // Variable to keep track of the currently clicked gridB element
+let currentGridB = null;
+let rating = 0;
+/* eslint-disable */
+function addBorderB(element) {
+  if (currentGridB !== null) {
+    currentGridB.style.border = '';
+    resetRating();
+  }
+
+  element.style.border = '1px solid black';
+  currentGridB = element;
+}
+
+// function to rate shoes
+function rateShoes(value) {
+  rating = value;
+  updateStars();
+  // Perform any other actions based on the rating value
+}
+
