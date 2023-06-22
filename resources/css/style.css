@@ -535,3 +535,64 @@ input {
   position: absolute;
 }
 
+.spec-label li {
+  padding: 4px;
+}
+/* stylelint-enable */
+
+/* stylelint-disable */
+.see2 {
+  /* padding-left: 60px; */
+  left: 90px;
+  padding-top: 250px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  position: absolute;
+  color: #344054;
+  font-family: 'Inter';
+}
+/* stylelint-enable */
+
+.seee {
+  align-items: center;
+  display: flex;
+  padding-top: 200px;
+  padding-left: 60px;
+  position: relative;
+  justify-content: center;
+}
+
+.simi-img {
+  min-width: 150px;
+  padding: 5px 5px;
+  border: 0.1px solid rgb(128, 128, 128, 0.054);
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2px;
+  position: relative;
+  top: 100px;
+}
+
+.similar-img img {
+  width: 100px;
+}
+
+.fa-chevron-left {
+  font-size: 20px;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.472);
+  border: 1px solid rgba(128, 128, 128, 0.323);
+  border-radius: 50%;
+  padding: 3px;
+  top: 60px;
+  margin-left: -10px;
+}
+
+.des-simi {
+  text-align: start;
+  margin: 5px;
+  position: relative;
+}
+
