@@ -212,3 +212,60 @@ input {
   margin-left: 5px;
 }
 
+/* section 1 begins here */
+
+.sect1 {
+  margin-top: 5vw;
+  margin-left: 7vw;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.left-container h3 {
+  color: #000;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.shoe-part {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3vw;
+}
+
+.gridA img {
+  border-radius: 8px;
+  cursor: pointer;
+  width: 32vw;
+  margin-top: 0.5vw;
+}
+
+#grid2 {
+  height: 7rem;
+  width: 6rem;
+}
+
+#grid3 {
+  height: 7rem;
+  width: 6rem;
+  margin-left: 1.6rem;
+}
+
+#grid4 {
+  height: 7rem;
+  width: 6rem;
+  margin-left: 1.6rem;
+}
+
+#grid1:hover,
+#grid2:hover,
+#grid3:hover,
+#grid4:hover {
+  border: 1px solid rgb(103, 103, 196);
+}
+
