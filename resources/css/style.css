@@ -596,3 +596,52 @@ input {
   position: relative;
 }
 
+/* stylelint-disable */
+.tdx {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  font-family: 'Inter';
+  color: #667085;
+}
+
+/* stylelint-enable */
+.img-price img {
+  left: 6.5%;
+  right: 83%;
+  top: 68.02%;
+  bottom: 22.2%;
+  width: 12px;
+}
+
+/* stylelint-disable */
+.img-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+  font-family: 'Montserrat';
+}
+/* stylelint-enable */
+
+/* stylelint-disable */
+.types {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  font-family: 'Inter';
+}
+/* stylelint-enable */
+
+.light {
+  color: #fdb022;
+}
+
+.fa-star-half-o {
+  color: orange;
+}
