@@ -132,3 +132,33 @@ input {
 .menu {
   margin-left: 350px;
 }
+
+/* stylelint-disable */
+.categories ul li {
+  display: inline-block;
+  margin-right: 34px;
+  margin-top: 25px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+/* stylelint-enable */
+
+.categories a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  gap: 10px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+.contact_pic {
+  width: 25px;
+  height: 25px;
+}
