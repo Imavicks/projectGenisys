@@ -97,3 +97,25 @@ function rateShoes(value) {
   // Perform any other actions based on the rating value
 }
 
+function updateStars() {
+  const stars = document.querySelectorAll('.star');
+  for (let i = 0; i < stars.length; i += 1) {
+    if (i < rating) {
+      stars[i].classList.add('active');
+      stars[i].style.color = '';
+    } else {
+      stars[i].classList.remove('active');
+      stars[i].style.color = '';
+    }
+  }
+}
+
+function resetRating() {
+  rating = 0;
+  updateStars();
+  const stars = document.querySelectorAll('.star');
+  for (let i = 0; i < stars.length; i += 1) {
+    stars[i].classList.remove('active');
+  }
+}
+/* eslint-enable */
