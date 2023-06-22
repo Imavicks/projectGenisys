@@ -482,3 +482,56 @@ input {
   font-family: 'Montserrat';
 }
 /* stylelint-enable */
+
+/* stylelint-disable */
+.desp-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding-top: 47px;
+  position: absolute;
+  font-family: 'Montserrat';
+}
+/* stylelint-enable */
+
+/* stylelint-disable */
+.label {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 25px;
+  line-height: 28px;
+  padding-top: 65px;
+  position: relative;
+  font-family: 'Montserrat';
+}
+/* stylelint-enable */
+
+.label h5 {
+  position: absolute;
+}
+
+/* stylelint-disable */
+.label-li {
+  padding-left: 30px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Montserrat';
+  position: absolute;
+}
+/* stylelint-enable */
+
+/* stylelint-disable */
+.spec-label {
+  padding-bottom: 60px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Montserrat';
+  position: absolute;
+}
+
