@@ -60,31 +60,30 @@ const section2 = document.querySelector('.section-2');
 const backButton = document.createElement('button');
 
 removeItemsButton.addEventListener('click', () => {
-    // Clear the session storage
-    sessionStorage.clear();
-    // Hide the section
-    section1.classList.add('hidden');
-    // Reset count and update cart count indicator
-    count = 0;
-    totalCount.innerHTML = count;
-    updatePriceAndCount();
-    cartCountIndicator.textContent = count;
-    // Apply conditional styling to section-2
-    section2.classList.add('section-2-adjusted');
-    // Add back arrow button
-    backButton.innerHTML = '< Back';
-    backButton.classList.add('back-button');
-    backButton.addEventListener('click', () => {
-      // Go back to the product page
-      window.history.back();
-    });
-    section2.prepend(backButton);
+  // Clear the session storage
+  sessionStorage.clear();
+  // Hide the section
+  section1.classList.add('hidden');
+  // Reset count and update cart count indicator
+  count = 0;
+  totalCount.innerHTML = count;
+  updatePriceAndCount();
+  cartCountIndicator.textContent = count;
+  // Apply conditional styling to section-2
+  section2.classList.add('section-2-adjusted');
+  // Add back arrow button
+  backButton.innerHTML = '< Back';
+  backButton.classList.add('back-button');
+  backButton.addEventListener('click', () => {
+    // Go back to the product page
+    window.history.back();
   });
-  
-  // Add event listener to checkout button
-  const checkoutButton = document.querySelector('.checkout-button button');
-  checkoutButton.addEventListener('click', () => {
-    // Perform checkout process here
-    // Redirect to the checkout page and checkout logic
-  });
-  
+  section2.prepend(backButton);
+});
+
+// Add event listener to checkout button
+const checkoutButton = document.querySelector('.checkout-button button');
+checkoutButton.addEventListener('click', () => {
+  // Perform checkout process here
+  // Redirect to the checkout page and checkout logic
+});
