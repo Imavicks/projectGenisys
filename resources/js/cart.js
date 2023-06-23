@@ -12,3 +12,49 @@ cartItemImage.src = product.image;
 cartItemColor.innerHTML = `Color: ${product.color}`;
 cartItemSize.innerHTML = `Select Size: ${product.size}`;
 cartItemWidth.innerHTML = `Select Width: ${product.width}`;
+
+// Increment and Decrement Buttons
+const decrementCount = document.getElementById('decrease-count');
+const incrementCount = document.getElementById('increase-count');
+const totalCount = document.getElementById('total-count');
+const cartCountIndicator = document.getElementById('cart-count'); // Cart count indicator element
+
+// Variable to track count and update price
+let count = 1; // Set the initial count to 1
+
+// Function to update price display and cart count indicator
+const updatePriceAndCount = () => {
+  const totalPrice = product.price * count;
+  cartItemPrice.innerHTML = `<b>&#8358;<b>${product.price} x ${count} = &#8358;${totalPrice}`;
+  cartCountIndicator.textContent = count; // Update cart count indicator
+};
+
+// Function to decrement count
+const handleDecrement = () => {
+  if (count > 1) {
+    count -= 1;
+    totalCount.innerHTML = count;
+    updatePriceAndCount();
+  }
+};
+
+// Function to increment count
+const handleIncrement = () => {
+  count += 1;
+  totalCount.innerHTML = count;
+  updatePriceAndCount();
+};
+
+// Display initial count value and update price display
+totalCount.innerHTML = count;
+updatePriceAndCount();
+
+// Add click event to buttons
+decrementCount.addEventListener('click', handleDecrement);
+incrementCount.addEventListener('click', handleIncrement);
+
+// Add event listener to remove items button
+const removeItemsButton = document.getElementById('remove-items');
+const section1 = document.querySelector('.section-1');
+const section2 = document.querySelector('.section-2');
+const backButton = document.createElement('button');
