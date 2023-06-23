@@ -188,3 +188,73 @@ headings.forEach((heading) => {
 // Display Description content by default on page load
 displayContent(descriptionContent);
 
+// PUSH TO CART
+
+let selectedSizeButton = null;
+let selectedWidthButton = null;
+let selectedImage = null;
+
+/* eslint-disable */
+function selectSize(button) {
+  if (selectedSizeButton) {
+    selectedSizeButton.classList.remove('selected');
+  }
+
+  button.classList.add('selected');
+  selectedSizeButton = button;
+}
+
+function selectWidth(button) {
+  if (selectedWidthButton) {
+    selectedWidthButton.classList.remove('selected');
+  }
+
+  button.classList.add('selected');
+  selectedWidthButton = button;
+}
+
+function selectImage(img) {
+  if (selectedImage) {
+    selectedImage.classList.remove('selected');
+  }
+
+  img.classList.add('selected');
+  selectedImage = img;
+}
+
+function addToCart() {
+  /* eslint-enable */
+  const product = {
+    price: 31500,
+    color: '', // Placeholder for the selected color
+    size: '', // Placeholder for the selected size
+    width: '', // Placeholder for the selected width
+    image: '', // Placeholder for the selected product image
+  };
+
+  if (selectedImage) {
+    product.image = selectedImage.src;
+  }
+
+  if (selectedSizeButton) {
+    product.size = selectedSizeButton.textContent;
+  }
+
+  if (selectedWidthButton) {
+    product.width = selectedWidthButton.textContent;
+  }
+
+  const colorElement = document.getElementById('color');
+  if (colorElement) {
+    product.color = colorElement.textContent.replace('Colour:', '').trim();
+  }
+
+  // Clear the session storage
+  // sessionStorage.clear();
+
+  // Set the product details in the session storage
+  sessionStorage.setItem('product', JSON.stringify(product));
+
+  // Navigate to the cart page
+  window.location.href = 'resources/html/cart.html';
+}
