@@ -37,13 +37,13 @@ function changeGridA(imageNumber) {
 /* eslint-disable */
 function changeToGrid1(newImageSrc) {
   /* eslint-enable */
-    const changeToGrid1 = document.getElementById('grid1');
-    changeToGrid1.src = newImageSrc;
-  }
-  
-  // Variable to keep track of the currently clicked gridA element
-  let currentGrid = null;
-  /* eslint-disable */
+  const changeToGrid1 = document.getElementById('grid1');
+  changeToGrid1.src = newImageSrc;
+}
+
+// Variable to keep track of the currently clicked gridA element
+let currentGrid = null;
+/* eslint-disable */
   function addBorder(element) {
     // Remove border from the previous grid if there was one
     if (currentGrid !== null) {
@@ -61,22 +61,22 @@ function changeToGrid1(newImageSrc) {
   /* eslint-disable */
   function changeGridBtxt(colorId) {
   /* eslint-enable */
-    const color = document.getElementById('color');
-  
-    if (colorId === 1) {
-      color.innerHTML = '<b>Colour:</b> Nimbus cloud with white';
-    } else if (colorId === 2) {
-      color.innerHTML = '<b>Colour:</b> Black and white';
-    } else if (colorId === 3) {
-      color.innerHTML = '<b>Colour:</b> Burgundy with white';
-    } else if (colorId === 4) {
-      color.innerHTML = '<b>Colour:</b> Navy with white';
-    } else {
-      color.textContent = '';
-    }
-  }
+  const color = document.getElementById('color');
 
-  // Variable to keep track of the currently clicked gridB element
+  if (colorId === 1) {
+    color.innerHTML = '<b>Colour:</b> Nimbus cloud with white';
+  } else if (colorId === 2) {
+    color.innerHTML = '<b>Colour:</b> Black and white';
+  } else if (colorId === 3) {
+    color.innerHTML = '<b>Colour:</b> Burgundy with white';
+  } else if (colorId === 4) {
+    color.innerHTML = '<b>Colour:</b> Navy with white';
+  } else {
+    color.textContent = '';
+  }
+}
+
+// Variable to keep track of the currently clicked gridB element
 let currentGridB = null;
 let rating = 0;
 /* eslint-disable */
