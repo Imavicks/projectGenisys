@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="/resources/css/cart.css">
+   <!-- FONTS -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main">
+        <div class="base">
+            <div><h1>KICKIN' IT</h1></div>
+            <div class="base-search">
+                <input type="search" placeholder="Search Product">
+                <div class="base-sel">
+                    <select name="" id="sel_1"><option value="">All Categories</option></select>
+                    <div class="base-img_1">
+                        <img src="/resources/assets/icons8-search-50.png" class="search">
+                    </div>
+                </div>
+            </div>
+            <div class="base-img_2">
+                <img src="/resources/assets/icons8-new-shopping-cart-50.png" alt="cart" class="cart">
+                <span id="cart-count" class="cart-count"></span> <!-- Cart count indicator -->
+            </div>
+            <div class="profile">
+                <a href="#"><img src="/resources/assets/profile_pic.png" alt="Profile Picture" class="profile_pic"></a>
+            </div>
+        </div>
+        <!-- Navigation menu -->
+        <div class="dashboard">
+            <div class="categories">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Location</a></li>
+                        <li><a href="#">Return Order</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <div><a href="#"><img src="/resources/assets/headphone.png" alt="Headphone" class="contact_pic"></a></div>
+                    <div class="contact_info">
+                        <p class="contact_info_1">Contact Us 24/7</p>
+                        <p class="contact_info_2">+12012987481</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>   
+    <div class="directory">
+        <a href="#">Home<img src="/resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">All Categories<img src="/resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">Shoes<img src="/resources/assets/icons8-arrow-50.png"></a>
+        <a href="#">Sports<img src="/resources/assets/icons8-arrow-50.png"></a>
+        <a href="#"><span>New Balance</span></a>
+   </div>
+    <section class="section-1">
+        <div class="return-page">
+          <a href="/index.html"><img src="/resources/assets/2124069_app_arrow_essential_left_ui_icon.png"></a><h2>My Cart</h2>
+       </div>
+       <div class="cart-item">
+          <img src="" alt="Product Image" class="cart-item-image">
+          <div class="cart-item-details">
+              <p class="cart-item-heading"><b>New Balance 574 Core</b></p>
+              <p class="cart-item-price"></p>
+              <p class="cart-item-color"></p>
+              <p class="cart-item-size"></p>
+              <p class="cart-item-width"></p>
+              <p>Quantity:</p>
+                <div class="quantity-button">
+                    <div id="decrease-count">
+                      <button id="decrease"><img src="/resources/assets/decrement icon.png" alt="Decrease" /></button>
+                    </div>
+                  <div id="total-count">1</div>
+                    <div id="increase-count">
+                      <button id="increase">
+                        <img src="/resources/assets/increment icon.png" alt="Increase" />
+                      </button>
+                    </div>
+                </div>
+                <p id='remove-items'>Remove</p>
+                <div class="checkout-button">
+                  <button>Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <h2 class="see2">Similar Items You Might Also Like</h2>
+        <div class="seee">
+            <div class="simi-img">
+                <div class="similar-img">
+                <i class="fa fa-chevron-left"></i><img src="/resources/assets/Frame 97.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="/resources/assets/Vector-3.png">25,500</h4>
+                    <p class="types">5 typesof shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <img src="/resources/assets/My project (1) 1 (1).png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="/resources/assets/Vector-3.png" alt="">15,000</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <img src="/resources/assets/Frame 97-2.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="/resources/assets/Vector-3.png" alt="">28,500</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <img src="/resources/assets/Frame 97-3.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="/resources/assets/Vector-3.png" alt="">25,500</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <img src="/resources/assets/Frame 97-4.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="/resources/assets/Vector-3.png" alt="">25,500</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+        <div class="simi-img">
+            <div class="similar-img">
+                <i class="fa fa-chevron-right"></i><img src="/resources/assets/Frame 97-5.png" alt="">
+                <div class="des-simi">
+                    <span class="tdx">TDX Sinkers</span>
+                    <h4 class="img-price"><img src="/resources/assets/Vector-3.png" alt="">25,500</h4>
+                    <p class="types">5 types of shoes available</p>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star light"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <span class="number">(121)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="sub">
+        <div class="sub-item">
+            <img src="/resources/assets/newsletter.png" alt="">
+            <div class="sub-writeup">
+                <h4>Join our newsletter and get offers</h4>
+                <h6>Sign up our newsletter</h6>
+            </div>
+        </div>
+        <div class="subscribe">
+            <input type="text" placeholder="Enter your email">
+            <button>SUBSCRIBE</button>
+        </div>
+        </div>
+        <div class="foot">
+        <div class="foot-items">
+        <div class="foot-section">
+            <h4>ABOUT US</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                Minus consectetur delectus natus ullam ut, veniam pariatur <br>
+                laudantium saepe expedita? Culpa.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-skype"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="foot-section">
+            <h4>INFORMATION</h4>
+            <p>About</p>
+            <p>Delivery information</p>
+            <p>Privacy Policy</p>
+            <p>Sales</p>
+            <p>Terms & Conditions</p>
+            <p>EMI Payment</p>
+        </div>
+        <div class="foot-section">
+            <h4>ACCOUNT</h4>
+            <p>My Account</p>
+            <p>My Orders</p>
+            <p>Returns</p>
+            <p>Shipping</p>
+            <p>Wishlist</p>
+            <p>Account Details</p>
+        </div>
+        <div class="foot-section">
+            <h4>CONTACT US</h4>
+            <p>If you have any query, please contact us <br><span>needus24@gmail.com</span></p>
+            <div class="location">
+                <img src="/resources/assets/location.png" alt="">
+                <p>California, USA</p>
+            </div>
+            <div class="phone">
+                <img src="/resources/assets/contact.png" alt="">
+                <p>+12012987481</p>
+            </div>
+        </div>
+        </div>
+        <div class="copyright"><p>Copyright. SOW 2023. All Rights Reserved.</p></div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/937e5bb93a.js" crossorigin="anonymous"></script>
+    <script src="/resources/js/cart.js"></script>
+</body>    
+</html>   
