@@ -104,10 +104,10 @@ input {
 }
 
 .cart {
-width: 40px;
-height: 35px;
-margin-top: 7px;
-margin-left: 85px;
+  width: 40px;
+  height: 35px;
+  margin-top: 7px;
+  margin-left: 85px;
 }
 
 /* Cart count header icon indicator styles */
