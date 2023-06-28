@@ -344,3 +344,149 @@ margin-left: 85px;
   height: 2.3rem;
 }
 
+/* CART ITEMS ENDS HERE */
+
+.section-2-adjusted {
+  margin-top: 8rem;
+}
+
+.back-button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 2px;
+  text-decoration: underline;
+}
+
+/* stylelint-disable */
+.see2 {
+  position: relative;
+  /* padding-left: 60px; */
+  left: 80px;
+  bottom: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #344054;
+  font-family: 'Inter';
+}
+/* stylelint-enable */
+
+.seee {
+  align-items: center;
+  display: flex;
+  padding-left: 60px;
+  position: relative;
+  justify-content: center;
+}
+
+.simi-img {
+  min-width: 150px;
+  padding: 5px 5px;
+  border: 0.1px solid rgb(128, 128, 128, 0.054);
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2px;
+  position: relative;
+  bottom: 60px;
+}
+
+.similar-img img {
+  width: 100px;
+}
+
+.fa-chevron-left {
+  font-size: 20px;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.472);
+  border: 1px solid rgba(128, 128, 128, 0.323);
+  border-radius: 50%;
+  padding: 3px;
+  top: 60px;
+  margin-left: -10px;
+}
+
+.des-simi {
+  text-align: start;
+  margin: 5px;
+  position: relative;
+}
+
+/* stylelint-disable */
+.tdx {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  font-family: 'Inter';
+  color: #667085;
+}
+/* stylelint-enable */
+
+.img-price img {
+  left: 6.5%;
+  right: 83%;
+  top: 68.02%;
+  bottom: 22.2%;
+  width: 12px;
+}
+
+/* stylelint-disable */
+.img-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+  font-family: 'Montserrat';
+}
+/* stylelint-enable */
+
+/* stylelint-disable */
+.types {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  font-family: 'Inter';
+}
+/* stylelint-enable */
+
+.light {
+  color: #fdb022;
+}
+
+.fa-star-half-o {
+  color: orange;
+}
+
+/* stylelint-disable */
+.number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 5px;
+  position: absolute;
+}
+/* stylelint-enable */
+
+.fa-chevron-right {
+  font-size: 20px;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.472);
+  border: 1px solid  rgba(128, 128, 128, 0.323);
+  border-radius: 50%;
+  padding: 3px;
+  top: 60px;
+  margin-left: 90px;
+}
+
+/* section two ends here */
+
