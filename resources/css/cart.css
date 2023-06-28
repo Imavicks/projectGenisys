@@ -490,3 +490,136 @@ margin-left: 85px;
 
 /* section two ends here */
 
+/* FOOTER */
+.sub {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  margin-top: 40px;
+  background-color: #191919;
+  color: white;
+  background-image: url(/resources/assets/sub.jpeg);
+  opacity: 1;
+}
+
+.sub .sub-item {
+  width: 40vw;
+  display: flex;
+}
+
+.sub-item img {
+  width: 4vw;
+  height: 4vw;
+}
+
+.sub-item .sub-writeup {
+  margin-top: 10px;
+}
+
+/* stylelint-disable */
+
+.sub-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Inter';
+}
+
+.sub-item h6 {
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+/* stylelint-enable */
+
+.sub .subscribe {
+  width: 40vw;
+  display: flex;
+}
+
+/* stylelint-disable */
+
+.subscribe button {
+  height: 47px;
+  width: 258px;
+  background-color: #e73C17;
+  color: white;
+  font-family: 'Inter';
+}
+
+/* stylelint-enable */
+
+.foot {
+  background-color: #191919;
+  color: white;
+  padding: 20px;
+}
+
+.foot-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+/* stylelint-disable */
+
+.foot-items h4 {
+  margin-bottom: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+}
+
+.foot-items p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+/* stylelint-enable */
+
+.foot-section .icons {
+  margin-top: 30px;
+}
+
+.icons .fa-brands {
+  padding: 10px;
+  color: white;
+}
+
+.foot .foot-section {
+  width: 20vw;
+}
+
+.foot-section .location,
+.phone {
+  display: flex;
+  margin-top: 20px;
+}
+
+.location p,
+.phone p {
+  margin-left: 15px;
+}
+
+.location img,
+.phone img {
+  width: 30px;
+  height: 30px;
+}
+
+.location .fa-sharp,
+.phone .fa-regular {
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.copyright p {
+  font-size: small;
+}
