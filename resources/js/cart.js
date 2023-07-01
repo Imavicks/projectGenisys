@@ -25,7 +25,7 @@ let count = 1; // Set the initial count to 1
 // Function to update price display and cart count indicator
 const updatePriceAndCount = () => {
   const totalPrice = product.price * count;
-  cartItemPrice.innerHTML = `<b>&#8358;<b>${product.price} x ${count} = &#8358;${totalPrice}`;
+  cartItemPrice.innerHTML = `x${count} = &#8358;${totalPrice}`;
   cartCountIndicator.textContent = count; // Update cart count indicator
 };
 
@@ -81,9 +81,21 @@ removeItemsButton.addEventListener('click', () => {
   section2.prepend(backButton);
 });
 
-// Add event listener to checkout button
+// Push to Checkout Page
 const checkoutButton = document.querySelector('.checkout-button button');
 checkoutButton.addEventListener('click', () => {
-  // Perform checkout process here
-  // Redirect to the checkout page and checkout logic
+  const checkoutProduct = {
+    price: product.price,
+    size: product.size,
+    width: product.width,
+    quantity: count,
+    color: product.color,
+    image: product.image,
+  };
+
+  // Set the product details in the session storage
+  sessionStorage.setItem('checkoutProduct', JSON.stringify(checkoutProduct));
+
+  // Navigate to the checkout page
+  window.location.href = '/resources/html/checkout.html';
 });
