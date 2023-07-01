@@ -17,3 +17,23 @@ checkoutItemQuantity.innerHTML = `x${checkoutProduct.quantity}`;
 checkoutCountIndicator.innerHTML = `${checkoutProduct.quantity}`;
 checkoutItemSize.innerHTML = `Size: ${checkoutProduct.size}`;
 checkoutItemWidth.innerHTML = `Width: ${checkoutProduct.width}`;
+
+// Function to change background color indicator to selected product color
+const prdColorElement = document.getElementById('prd-color');
+const colorElement = document.querySelector('.color-ref');
+
+prdColorElement.addEventListener('DOMCharacterDataModified', () => {
+  const prdColorText = prdColorElement.textContent.trim();
+
+  colorElement.classList.remove('nimbus-cloud', 'black-white', 'burgundy-white', 'navy-white');
+
+  if (prdColorText === 'Nimbus cloud with white') {
+    colorElement.classList.add('nimbus-cloud');
+  } else if (prdColorText === 'Black and white') {
+    colorElement.classList.add('black-white');
+  } else if (prdColorText === 'Burgundy with white') {
+    colorElement.classList.add('burgundy-white');
+  } else if (prdColorText === 'Navy with white') {
+    colorElement.classList.add('navy-white');
+  }
+});
