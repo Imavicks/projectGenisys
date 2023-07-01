@@ -550,7 +550,7 @@ input {
 /* stylelint-enable */
 
 .foot {
-  background-color: #191919;
+  background: rgba(84, 84, 84, 1);
   color: white;
   padding: 20px;
 }
@@ -582,6 +582,10 @@ input {
 
 .foot-section .icons {
   margin-top: 30px;
+}
+
+.foot-section span {
+  text-decoration: underline;
 }
 
 .icons .fa-brands {
