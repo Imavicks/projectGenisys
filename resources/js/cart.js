@@ -25,7 +25,7 @@ let count = 1; // Set the initial count to 1
 // Function to update price display and cart count indicator
 const updatePriceAndCount = () => {
   const totalPrice = product.price * count;
-  cartItemPrice.innerHTML = `<b>&#8358;<b>${product.price} x ${count} = &#8358;${totalPrice}`;
+  cartItemPrice.innerHTML = `x${count} = &#8358;${totalPrice}`;
   cartCountIndicator.textContent = count; // Update cart count indicator
 };
 
