@@ -37,3 +37,29 @@ prdColorElement.addEventListener('DOMCharacterDataModified', () => {
     colorElement.classList.add('navy-white');
   }
 });
+
+// Add commas to the displayed price
+const formattedPrice = checkoutProduct.price.toLocaleString();
+checkoutItemPrice.innerHTML = formattedPrice;
+
+// Calculate and add commas to the displayed total price
+const totalPrice = checkoutProduct.price * checkoutProduct.quantity;
+const formattedTotalPrice = totalPrice.toLocaleString();
+checkoutItemTotalPrice.innerHTML = formattedTotalPrice;
+
+// Update Total Checkout Prices
+const prdTotal = document.getElementById('prd-total');
+const prdShipping = document.getElementById('prd-shipping');
+const prdTax = document.getElementById('prd-tax');
+const checkoutTotal = document.getElementById('checkout-total');
+
+// Parse the values from the HTML elements
+const subtotal = parseFloat(prdTotal.innerHTML.replace(/,/g, ''));
+const shippingCost = parseFloat(prdShipping.innerHTML.replace(/,/g, ''));
+const tax = parseFloat(prdTax.innerHTML.replace(/,/g, ''));
+
+// Calculate the final checkout price
+const finalCheckoutPrice = subtotal + shippingCost + tax;
+
+// Set the calculated value to the checkout total element
+checkoutTotal.innerHTML = finalCheckoutPrice.toLocaleString();
