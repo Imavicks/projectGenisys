@@ -116,14 +116,14 @@
   /* Cart count header icon indicator styles */
   .cart-count {
     position: absolute;
-    padding: 4px;
+    padding: 5px;
     width: 9px;
-    height: 11px;
+    height: 10px;
     background-color: #f00;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
-    border-radius: 50%;
+    border-radius: 50px;
   }
   
   .profile_pic {
@@ -274,7 +274,9 @@
 }
 
 .check img {
-  margin-top: 5px;
+  height: 10px;
+  width: 10px;
+  margin-left: 5px;
 }
 
 .delivery-item h4 {
