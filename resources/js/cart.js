@@ -81,9 +81,21 @@ removeItemsButton.addEventListener('click', () => {
   section2.prepend(backButton);
 });
 
-// Add event listener to checkout button
+// Push to Checkout Page
 const checkoutButton = document.querySelector('.checkout-button button');
 checkoutButton.addEventListener('click', () => {
-  // Perform checkout process here
-  // Redirect to the checkout page and checkout logic
+  const checkoutProduct = {
+    price: product.price,
+    size: product.size,
+    width: product.width,
+    quantity: count,
+    color: product.color,
+    image: product.image,
+  };
+
+  // Set the product details in the session storage
+  sessionStorage.setItem('checkoutProduct', JSON.stringify(checkoutProduct));
+
+  // Navigate to the checkout page
+  window.location.href = '/resources/html/checkout.html';
 });
