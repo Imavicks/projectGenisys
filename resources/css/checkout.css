@@ -293,3 +293,51 @@
   margin-top: 3px;
 }
 
+.address {
+  padding: 10px;
+  margin-left: 3vw;
+  line-height: 2.5;
+}
+
+.change {
+  display: flex;
+}
+
+.change p {
+  margin-left: 5px;
+}
+
+#pay {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.payment {
+  background-color: #f1f1f1;
+  width: 84vw;
+  height: 22vh;
+  border-radius: 5px;
+}
+
+.payment-method {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.payment-item {
+  display: flex;
+}
+
+.payment-item .check {
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border-radius: 50px;
+}
+
+.payment-item h4 {
+  margin-left: 5px;
+}
+
