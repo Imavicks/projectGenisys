@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* stylelint-disable */
+  body {
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+  }
+  /* stylelint-enable */
+ 
