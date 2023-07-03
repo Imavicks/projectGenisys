@@ -341,3 +341,144 @@
   margin-left: 5px;
 }
 
+.method-radio {
+  position: relative;
+  padding: 10px;
+  margin-left: 1vw;
+  line-height: 2.5;
+}
+
+.method-radio form input {
+  width: 20px;
+  height: 15px;
+}
+
+#product-cart {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.cartP {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 2vw;
+  margin-top: 30px;
+  width: 80vw;
+  height: 30vh;
+}
+
+.color-ref {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.product .color.nimbus-cloud {
+  background-color: white;
+}
+
+.product .color.black-white {
+  background-color: black;
+}
+
+.product .color.burgundy-white {
+  background-color: brown;
+}
+
+.product .color.navy-white {
+  background-color: blue;
+}
+
+.product {
+  line-height: 2.2;
+}
+
+.order {
+  line-height: 2.2;
+}
+
+.itemP img {
+  width: 18vw;
+  height: 30vh;
+}
+
+.qty {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-list h5 {
+  margin-left: 20px;
+}
+
+#coupon {
+  width: 84vw;
+  margin-left: 7.5vw;
+  margin-bottom: 30px;
+}
+
+.coupon-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apply {
+  display: flex;
+}
+
+.apply p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.code {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.code input {
+  border: none;
+  width: 10rem;
+}
+
+.code img {
+  width: 20px;
+}
+
+.coupon-item button {
+  background-color: #6a1c0b;
+  color: white;
+  height: 5vh;
+  width: 20vw;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  height: 8vh;
+}
+
+.signout {
+  position: relative;
+  right: 13vw;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.help {
+  position: relative;
+  left: 13vw;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+}
