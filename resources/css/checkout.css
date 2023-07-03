@@ -242,3 +242,54 @@
     width: 30px;
     margin-right: 10px;
   }
+
+  #deliver {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.delivery {
+  background-color: #f1f1f1;
+  width: 84vw;
+  height: 22vh;
+  border-radius: 5px;
+}
+
+.delivery-add {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.delivery-item {
+  display: flex;
+}
+
+.delivery-item .check {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50px;
+}
+
+.check img {
+  margin-top: 5px;
+}
+
+.delivery-item h4 {
+  margin-left: 5px;
+}
+
+.delivery-item h4,
+.address p {
+  font-weight: 500;
+}
+
+.underline {
+  width: 84vw;
+  height: 2px;
+  background-color: black;
+  margin-top: 3px;
+}
+
