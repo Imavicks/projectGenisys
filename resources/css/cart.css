@@ -113,9 +113,9 @@ input {
 /* Cart count header icon indicator styles */
 .cart-count {
   position: absolute;
-  padding: 4px;
+  padding: 5px;
   width: 9px;
-  height: 11px;
+  height: 10px;
   background-color: #f00;
   color: #fff;
   font-size: 12px;
@@ -550,7 +550,7 @@ input {
 /* stylelint-enable */
 
 .foot {
-  background-color: #191919;
+  background: rgba(84, 84, 84, 1);
   color: white;
   padding: 20px;
 }
@@ -583,6 +583,12 @@ input {
 .foot-section .icons {
   margin-top: 30px;
 }
+
+/* stylelint-disable */
+.foot-section span {
+  text-decoration: underline;
+}
+/* stylelint-enable */
 
 .icons .fa-brands {
   padding: 10px;
