@@ -151,6 +151,86 @@ input {
   text-decoration: none;
 }
 
+/* stylelint-disable */
+.dropdown {
+  display: none;
+  position: relative;
+  z-index: 1; /* Ensure the dropdown is above other elements */
+  background-color: #f9f9f9;
+  font-family: 'Montserrat';
+  padding: 10px;
+  width: 17vw;
+  height: 60vh;
+  bottom: 19.8vh;
+  margin-left: 25vw;
+}
+/* stylelint-enable */
+
+.dropdown h3 {
+  font-size: 30px;
+  padding: 10px;
+  color: #000;
+}
+
+.dropdown h4 {
+  font-size: 20px;
+  padding: 10px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.dropdown .input-group {
+  margin-bottom: 10px;
+}
+
+.dropdown label {
+  display: block;
+  margin-bottom: 5px;
+  color: #191919;
+}
+
+.dropdown input {
+  cursor: pointer;
+  width: 16vw;
+  padding: 5px;
+}
+
+.dropdown .options {
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  bottom: 25vh;
+  left: 20vw;
+  z-index: 1;
+  color: #000;
+  background-color: #f9f9f9a5;
+  padding: 5px 4px;
+  width: 10vw;
+}
+
+.dropdown .options li {
+  cursor: pointer;
+  padding: 4px;
+}
+
+.dropdown .options li:hover {
+  color: #f9f9f9;
+  background-color: #000;
+}
+
+.dropdown button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(44, 43, 43);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 65px;
+}
+
 .contact {
   display: flex;
   gap: 10px;
@@ -577,6 +657,7 @@ input {
 
 .similar-img img {
   width: 100px;
+  transition: transform 1s ease-in-out; /* img:hover for this class was sent to the footer because of stylint specificity error */
 }
 
 .fa-chevron-left {
@@ -808,4 +889,12 @@ input {
 
 .copyright p {
   font-size: small;
+}
+
+.dropdown button:hover {
+  background-color: #45a049;
+}
+
+.similar-img img:hover {
+  transform: scale(2.2);
 }

@@ -396,6 +396,7 @@ input {
 
 .similar-img img {
   width: 100px;
+  transition: transform 1s ease-in-out;
 }
 
 .fa-chevron-left {
@@ -628,4 +629,8 @@ input {
 
 .copyright p {
   font-size: small;
+}
+
+.similar-img img:hover {
+  transform: scale(2.2);
 }
