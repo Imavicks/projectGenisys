@@ -39,7 +39,7 @@
                     <ul>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Our Location</a></li>
+                        <li><a href="#" id="locationLink">Our Location</a></li>
                         <li><a href="#">Return Order</a></li>
                         <li><a href="#">Delivery</a></li>
                         <li><a href="#">Help</a></li>
@@ -52,6 +52,30 @@
                         <p class="contact_info_2">+12012987481</p>
                     </div>
                 </div>
+            </div>
+            <div class="dropdown" id="preferencesDropdown">
+                <h3>Preferences</h3>
+                <hr>
+                <h4>SHOP IN</h4>
+                <div class="input-group">
+                  <label for="stateInput">State:</label>
+                  <input type="text" id="stateInput" placeholder="State">
+                  <ul id="stateOptions" class="options">
+                    <li>Lagos</li>
+                    <li>Abuja</li>
+                    <li>Port-Harcourt</li>
+                  </ul>
+                </div>
+                <div class="input-group">
+                  <label for="currencyInput">Currency:</label>
+                  <input type="text" id="currencyInput" placeholder="Currency">
+                  <ul id="currencyOptions" class="options">
+                    <li>Naira</li>
+                    <li>Dollar</li>
+                    <li>Euro</li>
+                  </ul>
+                </div>
+                <button id="updatePreferencesBtn">Update Preferences</button>
             </div>
         </div>    
     </header>

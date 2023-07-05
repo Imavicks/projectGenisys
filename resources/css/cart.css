@@ -399,10 +399,6 @@ input {
   transition: transform 1s ease-in-out;
 }
 
-.similar-img img:hover {
-  transform: scale(2.2);
-}
-
 .fa-chevron-left {
   font-size: 20px;
   position: absolute;
@@ -633,4 +629,8 @@ input {
 
 .copyright p {
   font-size: small;
+}
+
+.similar-img img:hover {
+  transform: scale(2.2);
 }
