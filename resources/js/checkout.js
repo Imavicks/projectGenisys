@@ -38,28 +38,20 @@ prdColorElement.addEventListener('DOMCharacterDataModified', () => {
   }
 });
 
-// Add commas to the displayed price
-const formattedPrice = checkoutProduct.price.toLocaleString();
-checkoutItemPrice.innerHTML = formattedPrice;
+// Add commas to the displayed product price
+checkoutItemPrice.innerHTML = `&#8358;${checkoutProduct.price.toLocaleString()}`;
 
-// Calculate and add commas to the displayed total price
-const totalPrice = checkoutProduct.price * checkoutProduct.quantity;
-const formattedTotalPrice = totalPrice.toLocaleString();
-checkoutItemTotalPrice.innerHTML = formattedTotalPrice;
+// Calculate and add commas to the displayed subtotal price
+const subtotalPrice = checkoutProduct.price * checkoutProduct.quantity;
+checkoutItemTotalPrice.innerHTML = `&#8358;${subtotalPrice.toLocaleString()}`;
 
 // Update Total Checkout Prices
-const prdTotal = document.getElementById('prd-total');
-const prdShipping = document.getElementById('prd-shipping');
-const prdTax = document.getElementById('prd-tax');
+const shippingCost = 7500;
+const tax = 3000;
 const checkoutTotal = document.getElementById('checkout-total');
 
-// Parse the values from the HTML elements
-const subtotal = parseFloat(prdTotal.innerHTML.replace(/,/g, ''));
-const shippingCost = parseFloat(prdShipping.innerHTML.replace(/,/g, ''));
-const tax = parseFloat(prdTax.innerHTML.replace(/,/g, ''));
-
 // Calculate the final checkout price
-const finalCheckoutPrice = subtotal + shippingCost + tax;
+const finalCheckoutPrice = subtotalPrice + shippingCost + tax;
 
-// Set the calculated value to the checkout total element
-checkoutTotal.innerHTML = finalCheckoutPrice.toLocaleString();
+// Set the calculated value to the checkoutTotal element
+checkoutTotal.innerHTML = `&#8358;${finalCheckoutPrice.toLocaleString()}`;

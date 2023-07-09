@@ -242,6 +242,20 @@ input {
 }
 /* stylelint-enable */
 
+/* New Section-1 paragraph after remove button is clicked */
+.message p {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 35px;
+}
+
+#contdShop {
+  font-size: 25px;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
 .return-page {
   display: flex;
   margin-top: 5rem;
@@ -331,10 +345,6 @@ input {
   cursor: pointer;
 }
 
-.hidden {
-  display: none;
-}
-
 .checkout-button button {
   border: none;
   background-color: #6a1c0b;
@@ -345,21 +355,6 @@ input {
 }
 
 /* CART ITEMS ENDS HERE */
-
-.section-2-adjusted {
-  margin-top: 8rem;
-}
-
-.back-button {
-  background-color: transparent;
-  border: none;
-  color: red;
-  cursor: pointer;
-  font-size: 20px;
-  margin-bottom: 20px;
-  padding: 2px;
-  text-decoration: underline;
-}
 
 /* stylelint-disable */
 .see2 {
