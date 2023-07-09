@@ -219,7 +219,11 @@ const specificationContent = `
   </ul>`;
 
 const contentOfDeliveryContent = `
-  <li>1xShoe<li>`;
+  <ul>
+  <li>x1 Shoe</li>
+  <li>x2 Shoe laces</li>
+  <li>x2 Selica gel</li>
+  </ul>`;
 
 // Function to display content in the container
 function displayContent(content) {

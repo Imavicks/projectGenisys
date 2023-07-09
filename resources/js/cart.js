@@ -25,7 +25,7 @@ let count = 1; // Set the initial count to 1
 // Function to update price display and cart count indicator
 const updatePriceAndCount = () => {
   const totalPrice = product.price * count;
-  cartItemPrice.innerHTML = `x${count} = &#8358;${totalPrice}`;
+  cartItemPrice.innerHTML = `x${count} = <b>&#8358;${totalPrice.toLocaleString()}<b>`;
   cartCountIndicator.textContent = count; // Update cart count indicator
 };
 
@@ -55,30 +55,29 @@ incrementCount.addEventListener('click', handleIncrement);
 
 // Add event listener to remove items button
 const removeItemsButton = document.getElementById('remove-items');
-const section1 = document.querySelector('.section-1');
-const section2 = document.querySelector('.section-2');
-const backButton = document.createElement('button');
+const cartItem = document.querySelector('.cart-item');
 
 removeItemsButton.addEventListener('click', () => {
   // Clear the session storage
   sessionStorage.clear();
-  // Hide the section
-  section1.classList.add('hidden');
+
   // Reset count and update cart count indicator
   count = 0;
   totalCount.innerHTML = count;
   updatePriceAndCount();
   cartCountIndicator.textContent = count;
-  // Apply conditional styling to section-2
-  section2.classList.add('section-2-adjusted');
-  // Add back arrow button
-  backButton.innerHTML = '< Back';
-  backButton.classList.add('back-button');
-  backButton.addEventListener('click', () => {
-    // Go back to the product page
-    window.history.back();
-  });
-  section2.prepend(backButton);
+  // Create a new message element
+  const message = document.createElement('div');
+  message.classList.add('message');
+  message.innerHTML = `
+    <p>It seems you have not added anything to your cart.</p>
+    <p>Nothing in your cart...</p>
+    <p id='contdShop'>Continue shopping?</p>
+  `;
+
+  // Replace cartItem content with the message
+  cartItem.innerHTML = '';
+  cartItem.appendChild(message);
 });
 
 // Push to Checkout Page
