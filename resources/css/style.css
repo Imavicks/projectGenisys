@@ -615,14 +615,26 @@ input {
   position: absolute;
 }
 
+.specLabel {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 25px;
+  line-height: 28px;
+  padding-top: 10px;
+  position: relative;
+  font-family: 'Montserrat';
+}
+
+.specLabel h5 {
+  font-size: 24px;
+}
+
 .spec-label li {
   padding: 4px;
 }
-/* stylelint-enable */
 
-/* stylelint-disable */
 .see2 {
-  /* padding-left: 60px; */
   left: 90px;
   padding-top: 250px;
   font-style: normal;
