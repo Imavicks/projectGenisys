@@ -898,3 +898,71 @@ input {
 .similar-img img:hover {
   transform: scale(2.2);
 }
+
+/* header toggle button */
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+  .menu-links {
+    display: flex;
+  }
+}
+
+/* media queries for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* header responsiveness */
+  .menu-toggle {
+    display: block;
+    position: relative;
+    margin-left: 50vw;
+    bottom: 10.5vh;
+  }
+
+  .menu-toggle img {
+    height: 20px;
+    width: 30px;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .menu-links.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 9rem;
+    right: 16vw;
+    bottom: 71vh;
+    background-color: black;
+    z-index: 1;
+  }
+
+  .menu-links.show a {
+    color: white;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .dropdown {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    margin-bottom: 10vh;
+  }
+
+  .dropdown .input-group {
+    font-size: 7vw;
+  }
+
+  .dropdown input {
+    width: 40vw;
+  }
+}

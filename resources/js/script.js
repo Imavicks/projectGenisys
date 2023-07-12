@@ -332,3 +332,16 @@ function addToCart() {
   // Navigate to the cart page
   window.location.href = 'resources/html/cart.html';
 }
+
+// function to toggle the dropdown menu on mobile view
+
+// Get the menu toggle button
+const menuToggle = document.querySelector('.menu-toggle');
+
+// Get the menu links
+const menuLinks = document.querySelector('.menu-links');
+
+// Toggle the dropdown menu when the toggle button is clicked
+menuToggle.addEventListener('click', () => {
+  menuLinks.classList.toggle('show');
+});
