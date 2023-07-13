@@ -458,6 +458,7 @@ input {
   background-color: #fff;
   position: relative;
   bottom: 0.5vw;
+  border-radius: 8px;
 }
 
 .select-width p {
@@ -477,6 +478,7 @@ input {
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
   background-color: #fff;
+  border-radius: 8px;
 }
 
 .select-size button.selected,
@@ -1048,18 +1050,6 @@ input {
   .categories ul li {
     margin-right: 20px;
     margin-top: 10px;
-  }
-
-  .contact {
-    margin-left: 0;
-    margin-bottom: 10px;
-    justify-content: center;
-  }
-
-  .contact_info_1,
-  .contact_info_2 {
-    font-size: 10px;
-    line-height: 14px;
   }
 
   /* section-1 */
