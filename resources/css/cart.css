@@ -631,12 +631,12 @@ input {
 }
 
 @media (min-width: 768px) {
-  .menu-toggle {
-      display: none;
+.menu-toggle {
+  display: none;
   }
 
-  .menu-links {
-      display: flex;
+.menu-links {
+  display: flex;
   }
 }
 
@@ -644,49 +644,52 @@ input {
 @media only screen and (max-width: 768px) {
   body {
       overflow-x: hidden;
-  }
+}
 
    /* CSS code for toggle button mobile view */ 
-   .menu-toggle {
-    display: block;
-    position: relative;
-    margin-left: 50vw;
-    bottom: 10.5vh;
-    }
-
-    .menu-toggle img {
-    height: 20px;
-    width: 30px;
-    }
-
-    .menu-links {
-        display: none;
-    }
-    .menu-links.show {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        width: 9rem;
-        right: 16vw;
-        bottom: 71vh;
-        background-color: black;
-        z-index: 1;
-    }
-    .menu-links.show a {
-    color: white;
-    }
-    .contact {
-    display: none;
-    }
-
-  .main {
-    width: 100vw;
+  .menu-toggle {
+      display: block;
+      position: relative;
+      margin-left: 50vw;
+      bottom: 10.5vh;
   }
+
+  .menu-toggle img {
+      height: 20px;
+      width: 30px;
+  }
+
+  .menu-links {
+      display: none;
+  }
+
+  .menu-links.show {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 9rem;
+      right: 16vw;
+      bottom: 71vh;
+      background-color: black;
+      z-index: 1;
+  }
+
+  .menu-links.show a {
+      color: white;
+  }
+
+  .contact {
+      display: none;
+  }
+
+.main {
+  width: 100vw;
+}
   
-  .base {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
+.base {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
   h1 {
     font-size: 15px;
