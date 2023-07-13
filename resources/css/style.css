@@ -1085,4 +1085,48 @@ input {
     height: 10px;
     width: 10px;
   }
+
+  .sect1 {
+    margin-top: 5vw;
+    margin-bottom: 40vw;
+    margin-left: 6vw;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .left-container {
+    margin-left: 20px;
+  }
+
+  .left-container h3 {
+    font-size: 25px;
+    margin-top: 14px;
+  }
+  
+  .shoe-part {
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+  .gridA img {
+    width: 100%;
+    width: 270px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  #grid2,
+  #grid3,
+  #grid4 {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 60px;
+  }
+  
+  
 }
