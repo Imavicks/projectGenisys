@@ -208,7 +208,7 @@ const descriptionContent = `
   </ul>`;
 
 const specificationContent = `
-  <div class="label"><h5>Specification</h5></div>
+  <div class="specLabel"><h5>Specification</h5></div>
   <ul class="spec-label">
     <li>Upper: The upper of the New Balance 574 Core is typically constructed using a combination of suede and mesh<br> materials. The suede overlays provide structure and support while the mesh sections offer breathability.</li>
     <li>Midsole: The shoe usually incorporates New Balance's ENCAP midsole technology. ENCAP combines a supportive<br> polyurethane rim with a soft EVA foam core to provide cushioning and stability.</li>
@@ -332,3 +332,16 @@ function addToCart() {
   // Navigate to the cart page
   window.location.href = 'resources/html/cart.html';
 }
+
+// function to toggle the dropdown menu on mobile view
+
+// Get the menu toggle button
+const menuToggle = document.querySelector('.menu-toggle');
+
+// Get the menu links
+const menuLinks = document.querySelector('.menu-links');
+
+// Toggle the dropdown menu when the toggle button is clicked
+menuToggle.addEventListener('click', () => {
+  menuLinks.classList.toggle('show');
+});
