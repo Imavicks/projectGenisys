@@ -1213,5 +1213,71 @@ input {
     margin-top: 10px;
   }
 
-  
+  /* section-2 */
+  .section-2 {
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    width: 100vw;
+  }
+
+  .desp-head {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .pp {
+    width: 100%;
+    text-align: left;
+  }
+
+  .desp-head h2 {
+    position: static;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 5px 0;
+  }
+
+  #contentContainer {
+    left: 19px;
+    margin-bottom: 170px;
+    max-width: 80vw;
+  }
+
+  .descrip-1 {
+    padding-bottom: 20px;
+  }
+
+  .desp-h4 {
+    position: static;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .desp-p {
+    position: static;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 20px;
+  }
+
+  .label {
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+
+  .label h5 {
+    position: static;
+  }
+
+  .label-li {
+    padding-left: 0;
+  }
+
+  .spec-label {
+    position: relative;
+  }
+
+ 
 }
