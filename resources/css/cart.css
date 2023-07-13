@@ -882,5 +882,67 @@ input {
     flex: 0 0 auto;
   }
  
-  
+  /* footer starts here */
+  footer {
+    position: relative;
+    margin-top: 50vw;
+    width: 100vw;
+  }
+
+  .sub {
+    display: block;
+  }
+
+  .sub-writeup {
+    position: relative;
+    margin-left: 5rem;
+  }
+
+  .sub-writeup h4 {
+    font-size: 10px;
+    width: 100vw;
+  }
+
+  .sub-writeup h6 {
+    margin-top: 10px;
+  }
+
+  .subscribe {
+    position: relative;
+    margin-top: 60px;
+    margin-right: 50vw;
+  }
+
+  .subscribe input {
+    width: 40vw;
+  }
+
+  .subscribe button {
+    font-size: 10px;
+    width: 100vw;
+  }
+
+  .foot-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 10vw;
+  }
+
+  .foot-section h4 {
+    font-size: 13px;
+  }
+
+  .foot-section p {
+    font-size: 10px;
+  }
+
+  .location img,
+  .phone img {
+    width: 20px;
+    height: 20px;
+  }
 }
