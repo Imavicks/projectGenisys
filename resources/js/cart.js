@@ -98,3 +98,16 @@ checkoutButton.addEventListener('click', () => {
   // Navigate to the checkout page
   window.location.href = '/resources/html/checkout.html';
 });
+
+// function to toggle the dropdown menu on mobile view
+
+// Get the menu toggle button
+const menuToggle = document.querySelector('.menu-toggle');
+
+// Get the menu links
+const menuLinks = document.querySelector('.menu-links');
+
+// Toggle the dropdown menu when the toggle button is clicked
+menuToggle.addEventListener('click', () => {
+  menuLinks.classList.toggle('show');
+});

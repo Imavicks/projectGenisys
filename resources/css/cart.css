@@ -631,12 +631,12 @@ input {
 }
 
 @media (min-width: 768px) {
-.menu-toggle {
-  display: none;
+  .menu-toggle {
+    display: none;
   }
 
-.menu-links {
-  display: flex;
+  .menu-links {
+    display: flex;
   }
 }
 
@@ -646,7 +646,7 @@ input {
     overflow-x: hidden;
   }
 
-  /* CSS code for toggle button mobile view */ 
+  /* CSS code for toggle button mobile view */
   .menu-toggle {
     display: block;
     position: relative;
@@ -685,7 +685,7 @@ input {
   .main {
     width: 100vw;
   }
-  
+
   .base {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -757,18 +757,6 @@ input {
   .categories ul li {
     margin-right: 20px;
     margin-top: 10px;
-  }
-
-  .contact {
-    margin-left: 0;
-    margin-bottom: 10px;
-    justify-content: center;
-  }
-
-  .contact_info_1,
-  .contact_info_2 {
-    font-size: 10px;
-    line-height: 14px;
   }
 
   /* section-1 */
@@ -881,7 +869,7 @@ input {
     top: 0;
     flex: 0 0 auto;
   }
- 
+
   /* footer starts here */
   footer {
     position: relative;
