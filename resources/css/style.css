@@ -1129,10 +1129,7 @@ input {
   }
   
   .right-container {
-    position: relative;
-    right: 1rem;
-    margin-bottom: 170px;
-    padding: 5px;
+   margin-left: 3vw;
     text-align: center;
   }
   
