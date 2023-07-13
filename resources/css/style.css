@@ -1313,7 +1313,7 @@ input {
 
   .sub-writeup {
     position: relative;
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
 
   .sub-writeup h4 {
@@ -1326,9 +1326,8 @@ input {
   }
 
   .subscribe {
-    position: relative;
-    margin-top: 60px;
-    margin-right: 50vw;
+    margin-left: 15vw;
+    margin-top: 3vw;
   }
 
   .subscribe input {
