@@ -458,6 +458,7 @@ input {
   background-color: #fff;
   position: relative;
   bottom: 0.5vw;
+  border-radius: 8px;
 }
 
 .select-width p {
@@ -477,6 +478,7 @@ input {
   margin: 0.5vw;
   border: 1px solid #9b9b9b;
   background-color: #fff;
+  border-radius: 8px;
 }
 
 .select-size button.selected,
