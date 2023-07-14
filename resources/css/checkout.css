@@ -465,7 +465,7 @@ input {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #000;
   height: 8vh;
 }
@@ -484,4 +484,14 @@ footer {
   color: #fff;
   font-size: 15px;
   padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-links {
+    display: flex;
+  }
 }
