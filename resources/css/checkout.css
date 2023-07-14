@@ -575,4 +575,69 @@ footer {
     margin-top: 10px;
     order: 1;
   }
+
+  .profile_pic {
+    margin-left: 9rem;
+    height: 20px;
+    width: 25px;
+    order: 1;
+  }
+
+  .cart {
+    order: 1;
+    position: relative;
+    right: 12rem;
+    bottom: 0.7rem;
+    height: 22px;
+    width: 30px;
+  }
+
+  .cart-count {
+    left: 11rem;
+    top: 20px;
+  }
+
+  .dashboard {
+    height: auto;
+  }
+
+  .categories {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu {
+    margin-left: 0;
+  }
+
+  .categories ul li {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .order,
+  .product {
+    line-height: 1.5;
+    padding: 10px;
+  }
+
+  .product p,
+  .order p {
+    font-size: small;
+  }
+
+  .order h5,
+  h4 {
+    font-size: small;
+  }
+
+  .cartP img {
+    height: 130px;
+    margin-top: 50px;
+  }
+
+  .code input {
+    height: 10px;
+    width: 120px;
+  }
 }
