@@ -793,7 +793,7 @@ input {
   margin-top: 40px;
   background-color: #191919;
   color: white;
-  background-image: url(/resources/assets/sub.jpeg);
+  background-image: url(../assets/sub.jpeg);
   opacity: 1;
 }
 
@@ -971,7 +971,7 @@ input {
     position: absolute;
     width: 9rem;
     right: 16vw;
-    bottom: 71vh;
+    bottom: 58vh;
     background-color: black;
     z-index: 1;
   }
@@ -994,7 +994,7 @@ input {
   }
 
   .main {
-    width: 100vw;
+    width: 118vw;
   }
   
   .base {
@@ -1011,8 +1011,10 @@ input {
   }
 
   .base-search {
+    position: relative;
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    bottom: 75px;
     width: 100%;
     order: 3;
   }
@@ -1041,8 +1043,8 @@ input {
   .cart {
     order: 1;
     position: relative;
-    right: 12rem;
-    bottom: 0.7rem;
+    left: 5rem;
+    bottom: 4.5rem;
     height: 22px;
     width: 30px;
   }
@@ -1307,7 +1309,7 @@ input {
   footer {
     position: relative;
     margin-top: 50vw;
-    width: 100vw;
+    width: 124vw;
   }
 
   .sub {

@@ -96,7 +96,7 @@ checkoutButton.addEventListener('click', () => {
   sessionStorage.setItem('checkoutProduct', JSON.stringify(checkoutProduct));
 
   // Navigate to the checkout page
-  window.location.href = '/resources/html/checkout.html';
+  window.location.href = '../html/checkout.html';
 });
 
 // function to toggle the dropdown menu on mobile view
