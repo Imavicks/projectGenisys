@@ -1,75 +1,14 @@
 // function to display a dropdown page on "Our Location"
-const preferencesDropdown = document.getElementById('preferencesDropdown');
-const stateInput = document.getElementById('stateInput');
-const currencyInput = document.getElementById('currencyInput');
-const stateOptions = document.getElementById('stateOptions');
-const currencyOptions = document.getElementById('currencyOptions');
-const updatePreferencesBtn = document.getElementById('updatePreferencesBtn');
-
-let isDropdownVisible = false;
-
-// Event listener for clicking on the "State" input field
-stateInput.addEventListener('click', () => {
-  stateOptions.style.display = 'block'; // Display the state options
-});
-
-// Event listener for clicking on the "Currency" input field
-currencyInput.addEventListener('click', () => {
-  currencyOptions.style.display = 'block'; // Display the currency options
-});
-
-// Event listener for clicking on a state option
-stateOptions.addEventListener('click', (event) => {
-  const selectedState = event.target.textContent;
-  stateInput.value = selectedState; // Assign the selected state to the input field
-  stateOptions.style.display = 'none'; // Hide the state options
-});
-
-// Event listener for clicking on a currency option
-currencyOptions.addEventListener('click', (event) => {
-  const selectedCurrency = event.target.textContent;
-  currencyInput.value = selectedCurrency; // Assign the selected currency to the input field
-  currencyOptions.style.display = 'none'; // Hide the currency options
-});
-
-// Event listener to handle clicks outside of the state and currency options
-document.addEventListener('click', (event) => {
-  if (
-    !stateInput.contains(event.target)
-    && !stateOptions.contains(event.target)
-  ) {
-    stateOptions.style.display = 'none'; // Hide the state options if clicked outside
-  }
-
-  if (
-    !currencyInput.contains(event.target)
-    && !currencyOptions.contains(event.target)
-  ) {
-    currencyOptions.style.display = 'none'; // Hide the currency options if clicked outside
-  }
-});
-
-// Event listener for clicking on the "Our Location" link
 /* eslint-disable */
-locationLink.addEventListener('click', (event) => {
-/* eslint-enable */
-  event.preventDefault();
-  isDropdownVisible = !isDropdownVisible;
-  preferencesDropdown.style.display = isDropdownVisible ? 'block' : 'none'; // Toggle the visibility of the dropdown
-});
+const subMenu = document.getElementById('subMenu');
+const closeSub = document.getElementById('closeSub');
 
-// Event listener for clicking the "Update Preferences" button
-updatePreferencesBtn.addEventListener('click', () => {
-  // const selectedState = stateInput.value;
-  // const selectedCurrency = currencyInput.value;
-
-  // Close the dropdown
-  isDropdownVisible = false;
-  preferencesDropdown.style.display = 'none';
-});
+function toggleMenu() {
+  subMenu.classList.toggle('open-menu');
+  closeSub.classList.toggle('close-menu');
+}
 
 // function to change grid images on gridA to images on gridB
-/* eslint-disable */
 function changeGridA(imageNumber) {
 /* eslint-enable */
   const gridAImages = [
