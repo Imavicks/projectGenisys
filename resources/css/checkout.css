@@ -502,7 +502,23 @@ footer {
     overflow-x: hidden;
   }
 
-  /* CSS code for toggle button mobile view */
+  .directory {
+    position: relative;
+    align-items: flex-start;
+    right: 3.5rem;
+  }
+
+  .directory a {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-size: 11px;
+  }
+
+  .directory a span {
+    font-size: 11px;
+  }
+
   .menu-toggle {
     display: block;
     position: relative;
@@ -556,8 +572,10 @@ footer {
   }
 
   .base-search {
+    position: relative;
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    bottom: 75px;
     width: 100%;
     order: 3;
   }
@@ -586,14 +604,14 @@ footer {
   .cart {
     order: 1;
     position: relative;
-    right: 12rem;
-    bottom: 0.7rem;
+    left: 5rem;
+    bottom: 4.5rem;
     height: 22px;
     width: 30px;
   }
 
   .cart-count {
-    left: 11rem;
+    left: 13rem;
     top: 20px;
   }
 
@@ -634,6 +652,12 @@ footer {
   .cartP img {
     height: 130px;
     margin-top: 50px;
+  }
+
+  .directory a img {
+    margin-left: 80px;
+    height: 10px;
+    width: 10px;
   }
 
   .code input {
