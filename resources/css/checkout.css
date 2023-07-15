@@ -465,7 +465,7 @@ input {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #000;
   height: 8vh;
 }
@@ -484,4 +484,160 @@ footer {
   color: #fff;
   font-size: 15px;
   padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-links {
+    display: flex;
+  }
+}
+
+/* Media queries for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* CSS code for toggle button mobile view */
+  .menu-toggle {
+    display: block;
+    position: relative;
+    margin-left: 50vw;
+    bottom: 10.5vh;
+  }
+
+  .menu-toggle img {
+    height: 20px;
+    width: 30px;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .menu-links.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 9rem;
+    right: 16vw;
+    bottom: 71vh;
+    background-color: black;
+    z-index: 1;
+  }
+
+  .menu-links.show a {
+    color: white;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .main {
+    width: 100vw;
+  }
+
+  .base {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    font-size: 15px;
+    width: auto;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .base-search {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    order: 3;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  .base-sel {
+    display: none;
+  }
+
+  .base-img_1,
+  .base-img_2 {
+    margin-top: 10px;
+    order: 1;
+  }
+
+  .profile_pic {
+    margin-left: 9rem;
+    height: 20px;
+    width: 25px;
+    order: 1;
+  }
+
+  .cart {
+    order: 1;
+    position: relative;
+    right: 12rem;
+    bottom: 0.7rem;
+    height: 22px;
+    width: 30px;
+  }
+
+  .cart-count {
+    left: 11rem;
+    top: 20px;
+  }
+
+  .dashboard {
+    height: auto;
+  }
+
+  .categories {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu {
+    margin-left: 0;
+  }
+
+  .categories ul li {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .order,
+  .product {
+    line-height: 1.5;
+    padding: 10px;
+  }
+
+  .product p,
+  .order p {
+    font-size: small;
+  }
+
+  .order h5,
+  h4 {
+    font-size: small;
+  }
+
+  .cartP img {
+    height: 130px;
+    margin-top: 50px;
+  }
+
+  .code input {
+    height: 10px;
+    width: 120px;
+  }
 }

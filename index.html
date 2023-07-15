@@ -40,11 +40,36 @@
                     <ul class="menu-links">
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#" id="locationLink">Our Location</a></li>
+                        <li><a href="#" onClick="toggleMenu()">Our Location</a></li>
                         <li><a href="#">Return Order</a></li>
                         <li><a href="#">Delivery</a></li>
                         <li><a href="#">Help</a></li>
                     </ul>
+                    <div class="sub-menu-wrap" id="subMenu">
+                        <sub-menu>
+                            <div class="user-preference">
+                                <h2>Preferences</h2>
+                                <hr>
+                                <p>SHOP IN</p>
+                                <div class="pref_info">
+                                    <select name="" id="pref_info_1" >
+                                        <option value="">State</option>
+                                        <option value="">Lagos</option>
+                                        <option value="">Abuja</option>
+                                        <option value="">Port-Harcourt</option>
+                                    </select>
+                                    <select name="" id="pref_info_2">
+                                        <option value="">Currency</option>
+                                        <option value="">Naira</option>
+                                        <option value="">Dollar</option>
+                                        <option value="">Euro</option>
+                                    </select>
+                                    <img src="asset/Group 49450.png" alt="Payment options" class="pref_img">
+                                    <button class="pref_btn" id="closeSub" onClick="toggleMenu()">UPDATE PREFERENCES</button>
+                                </div>
+                            </div>
+                        </sub-menu>
+                    </div>
                 </div>
                 <div class="contact">
                     <div><a href="#"><img src="resources/assets/headphone.png" alt="Headphone" class="contact_pic"></a></div>
@@ -53,30 +78,6 @@
                         <p class="contact_info_2">+12012987481</p>
                     </div>
                 </div>
-            </div>
-            <div class="dropdown" id="preferencesDropdown">
-                <h3>Preferences</h3>
-                <hr>
-                <h4>SHOP IN</h4>
-                <div class="input-group">
-                  <label for="stateInput">State:</label>
-                  <input type="text" id="stateInput" placeholder="State">
-                  <ul id="stateOptions" class="options">
-                    <li>Lagos</li>
-                    <li>Abuja</li>
-                    <li>Port-Harcourt</li>
-                  </ul>
-                </div>
-                <div class="input-group">
-                  <label for="currencyInput">Currency:</label>
-                  <input type="text" id="currencyInput" placeholder="Currency">
-                  <ul id="currencyOptions" class="options">
-                    <li>Naira</li>
-                    <li>Dollar</li>
-                    <li>Euro</li>
-                  </ul>
-                </div>
-                <button id="updatePreferencesBtn">Update Preferences</button>
             </div>
         </div>    
     </header>
