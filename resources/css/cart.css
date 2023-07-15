@@ -898,9 +898,8 @@ input {
   }
 
   .subscribe {
-    position: relative;
-    margin-top: 60px;
-    margin-right: 50vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
   }
 
   .subscribe input {
@@ -935,4 +934,10 @@ input {
     width: 20px;
     height: 20px;
   }
+  
+  .cart-item-image {
+    width: 40vw;
+    height: 30vh;
+  }
+
 }
