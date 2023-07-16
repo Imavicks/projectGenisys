@@ -66,7 +66,7 @@ A deployed version of the website can be found [here](https://imavicks.github.io
 
 <h3 id="sitegoals">Site Owner Goals</h3>
 
-- As site ownesr, we want to ensure the user has an ease of navigation
+- As site owners, we want to ensure the user has an ease of navigation
 - As site owners, we want the user to be able to select as many pairs of shoes to add to the cart
 - As site owners, we want the user to be able to delete the items in the cart or checkout the items in the cart
 - As site owners, we want the user to have the same experience as on desktop and on mobile where they can navigate through all the images on their phone.
@@ -113,7 +113,7 @@ Here are some of the features of our website -
 
 [Figma](https://www.figma.com)
 
-- we used Figma to incorporate our design. link to our Figma design is  [here](https://www.figma.com/file/QLFeUrU4KgyUHHBX3Tb8O4/SOW?type=design&node-id=3%3A1634&t=XJBhJ0yBjj0SGtj9-1)
+- We used Figma to incorporate our design. link to our Figma design is  [here](https://www.figma.com/file/QLFeUrU4KgyUHHBX3Tb8O4/SOW?type=design&node-id=3%3A1634&t=XJBhJ0yBjj0SGtj9-1)
 
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
@@ -137,19 +137,19 @@ Here are some of the features of our website -
 
 [Visual Studio Code](https://code.visualstudio.com)
 
-- we used Visual Studio Code as the development environment to write the code for our website
+- We used Visual Studio Code as the development environment to write the code for our website
 
 [Git](https://git-scm.com)
 
-- we used Git as a version control system to regularly add and commit changes made to project on Visual Studio Code, before pushing them to GitHub.
+- We used Git as a version control system to regularly add and commit changes made to project on Visual Studio Code, before pushing them to GitHub.
 
 [GitHub](https://github.com)
 
-- we used GitHub as a remote repository to push and store the committed changes to our project from Git. we also used GitHub pages to deploy our website in a live environment.
+- We used GitHub as a remote repository to push and store the committed changes to our project from Git. We also used GitHub pages to deploy our website in a live environment.
 
 ---
 ## Accesibility
-  - This project is easily accessible on any browser. It's mobile responsive, which means can be viewed both on mobile or desktop devices.
+  - This project is easily accessible on any browser. It is mobile responsive, which means it can be viewed both on mobile or desktop devices.
 
 ---
 ## Collaboration
