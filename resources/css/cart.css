@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
 }
 
@@ -22,20 +23,16 @@ body {
   width: 90vw;
 }
 
-/* stylelint-disable */
 h1 {
   font-weight: 600;
   font-size: 30px;
-  font-style: normal;
-  color: #ffffff;
+  color: #fff;
   line-height: 38px;
   width: 317px;
   height: 48px;
   padding-left: 60px;
   margin-top: 9px;
-  font-family: 'Montserrat';
 }
-/* stylelint-enable */
 
 .base-search {
   display: flex;
@@ -45,22 +42,18 @@ h1 {
   height: 56px;
 }
 
-/* stylelint-disable */
 input {
   width: 380px;
   height: 45px;
   padding-left: 7px;
   color: #969696;
   background-color: #fff;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 100;
   font-size: 14px;
   line-height: 18px;
   border: 1px solid grey;
   border-radius: 3px 0 0 3px;
 }
-/* stylelint-enable */
 
 .base-sel {
   border: 1px solid grey;
@@ -73,20 +66,16 @@ input {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* stylelint-disable */
 #sel_1 {
   width: 120px;
   height: 38px;
   padding-left: 3px;
   color: #191919;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 100;
   font-size: 14px;
   line-height: 18px;
   border: none;
 }
-/* stylelint-enable */
 
 .base-img_1 {
   border-radius: 5px;
@@ -151,8 +140,6 @@ input {
   display: inline-block;
   margin-right: 34px;
   margin-top: 25px;
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
@@ -181,27 +168,19 @@ input {
   flex-direction: column;
 }
 
-/* stylelint-disable */
 .contact_info_1 {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 300;
   font-size: 12px;
   line-height: 17px;
-  color: #ffffff;
+  color: #fff;
 }
-/* stylelint-enable */
 
-/* stylelint-disable */
 .contact_info_2 {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
 }
-/* stylelint-enable */
 
 /* -- End of header style -- */
 .directory {
@@ -225,22 +204,12 @@ input {
   margin-left: 5px;
 }
 
-.directory a span {
-  color: black;
-  font-size: 12px;
-  font-weight: 600;
-}
-
 /* CART ITEMS */
 
-/* stylelint-disable */
 .section-1 {
-  font-family: 'Montserrat';
-  font-style: normal;
   position: relative;
   height: 100vh;
 }
-/* stylelint-enable */
 
 /* New Section-1 paragraph after remove button is clicked */
 .message p {
@@ -356,19 +325,14 @@ input {
 
 /* CART ITEMS ENDS HERE */
 
-/* stylelint-disable */
 .see2 {
   position: relative;
-  /* padding-left: 60px; */
   left: 80px;
-  bottom: 60px;
-  font-style: normal;
+  bottom: 65px;
   font-weight: 700;
   font-size: 30px;
   color: #344054;
-  font-family: 'Inter';
 }
-/* stylelint-enable */
 
 .seee {
   align-items: center;
@@ -411,16 +375,12 @@ input {
   position: relative;
 }
 
-/* stylelint-disable */
 .tdx {
   font-size: 16px;
   font-weight: 500;
-  font-style: normal;
   line-height: 24px;
-  font-family: 'Inter';
   color: #667085;
 }
-/* stylelint-enable */
 
 .img-price img {
   left: 6.5%;
@@ -430,28 +390,20 @@ input {
   width: 12px;
 }
 
-/* stylelint-disable */
 .img-price {
-  font-style: normal;
   font-weight: 500;
   font-size: 23px;
   line-height: 24px;
   margin-bottom: 4px;
   margin-top: 3px;
-  font-family: 'Montserrat';
 }
-/* stylelint-enable */
 
-/* stylelint-disable */
 .types {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 5px;
-  font-family: 'Inter';
 }
-/* stylelint-enable */
 
 .light {
   color: #fdb022;
@@ -461,17 +413,13 @@ input {
   color: orange;
 }
 
-/* stylelint-disable */
 .number {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin-left: 5px;
   position: absolute;
 }
-/* stylelint-enable */
 
 .fa-chevron-right {
   font-size: 20px;
@@ -512,38 +460,27 @@ input {
   margin-top: 10px;
 }
 
-/* stylelint-disable */
-
 .sub-item h4 {
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Inter';
 }
 
 .sub-item h6 {
   font-size: 12px;
-  font-family: 'Inter';
   font-weight: 500;
 }
-
-/* stylelint-enable */
 
 .sub .subscribe {
   width: 40vw;
   display: flex;
 }
 
-/* stylelint-disable */
-
 .subscribe button {
   height: 47px;
   width: 258px;
-  background-color: #e73C17;
+  background-color: #e73c17;
   color: white;
-  font-family: 'Inter';
 }
-
-/* stylelint-enable */
 
 .foot {
   background: rgba(84, 84, 84, 1);
@@ -557,34 +494,30 @@ input {
   width: 100vw;
 }
 
-/* stylelint-disable */
-
 .foot-items h4 {
   margin-bottom: 20px;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
 }
 
 .foot-items p {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 300;
   font-size: 17px;
   margin-top: 10px;
 }
 
-/* stylelint-enable */
-
 .foot-section .icons {
   margin-top: 30px;
 }
 
-/* stylelint-disable */
 .foot-section span {
   text-decoration: underline;
 }
-/* stylelint-enable */
+
+.directory a span {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
 
 .icons .fa-brands {
   padding: 10px;
