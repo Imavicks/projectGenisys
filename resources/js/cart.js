@@ -25,7 +25,7 @@ let count = 1; // Set the initial count to 1
 // Function to update price display and cart count indicator
 const updatePriceAndCount = () => {
   const totalPrice = product.price * count;
-  cartItemPrice.innerHTML = `x${count} = <b>&#8358;${totalPrice.toLocaleString()}<b>`;
+  cartItemPrice.innerHTML = `<b>&#8358;${totalPrice.toLocaleString()}<b> (${count})`;
   cartCountIndicator.textContent = count; // Update cart count indicator
 };
 
@@ -71,8 +71,7 @@ removeItemsButton.addEventListener('click', () => {
   message.classList.add('message');
   message.innerHTML = `
     <p>It seems you have not added anything to your cart.</p>
-    <p>Nothing in your cart...</p>
-    <p id='contdShop'>Continue shopping?</p>
+    <p><a id='contdShop' href="https://imavicks.github.io/projectGenisys/">Continue shopping?</a></p>
   `;
 
   // Replace cartItem content with the message
