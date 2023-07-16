@@ -684,6 +684,7 @@ input {
 
   .main {
     width: 130vw;
+    height: 20vh;
   }
 
   .base {
@@ -788,8 +789,8 @@ input {
   }
 
   .cart-item-image {
-    height: auto;
-    width: 40%;
+    width: 40vw;
+    height: 30vh;
   }
 
   .cart-item-details {
@@ -898,9 +899,8 @@ input {
   }
 
   .subscribe {
-    position: relative;
-    margin-top: 60px;
-    margin-right: 50vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
   }
 
   .subscribe input {
