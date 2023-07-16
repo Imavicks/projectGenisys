@@ -66,7 +66,7 @@ A deployed version of the website can be found [here](https://imavicks.github.io
 
 <h3 id="sitegoals">Site Owner Goals</h3>
 
-- As site ownesr, we want to ensure the user has an ease of navigation
+- As site owners, we want to ensure the user has an ease of navigation
 - As site owners, we want the user to be able to select as many pairs of shoes to add to the cart
 - As site owners, we want the user to be able to delete the items in the cart or checkout the items in the cart
 - As site owners, we want the user to have the same experience as on desktop and on mobile where they can navigate through all the images on their phone.
