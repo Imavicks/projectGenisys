@@ -684,6 +684,7 @@ input {
 
   .main {
     width: 130vw;
+    height: 20vh;
   }
 
   .base {
@@ -788,8 +789,8 @@ input {
   }
 
   .cart-item-image {
-    height: auto;
-    width: 40%;
+    width: 40vw;
+    height: 30vh;
   }
 
   .cart-item-details {
@@ -934,10 +935,4 @@ input {
     width: 20px;
     height: 20px;
   }
-  
-  .cart-item-image {
-    width: 40vw;
-    height: 30vh;
-  }
-
 }
