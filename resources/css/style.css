@@ -5,6 +5,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* --Start of header style-- */
@@ -22,20 +23,16 @@ body {
   width: 90vw;
 }
 
-/* stylelint-disable */
 h1 {
   font-weight: 600;
   font-size: 30px;
-  font-style: normal;
-  color: #ffffff;
+  color: #fff;
   line-height: 38px;
   width: 317px;
   height: 48px;
   padding-left: 60px;
   margin-top: 9px;
-  font-family: 'Montserrat';
 }
-/* stylelint-enable */
 
 .base-search {
   display: flex;
@@ -45,22 +42,18 @@ h1 {
   height: 56px;
 }
 
-/* stylelint-disable */
 input {
   width: 380px;
   height: 45px;
   padding-left: 7px;
   color: #969696;
   background-color: #fff;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 100;
   font-size: 14px;
   line-height: 18px;
   border: 1px solid grey;
   border-radius: 3px 0 0 3px;
 }
-/* stylelint-enable */
 
 .base-sel {
   border: 1px solid grey;
@@ -73,20 +66,16 @@ input {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* stylelint-disable */
 #sel_1 {
   width: 120px;
   height: 38px;
   padding-left: 3px;
   color: #191919;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 100;
   font-size: 14px;
   line-height: 18px;
   border: none;
 }
-/* stylelint-enable */
 
 .base-img_1 {
   border-radius: 5px;
@@ -133,19 +122,6 @@ input {
   margin-left: 350px;
 }
 
-/* stylelint-disable */
-.categories ul li {
-  display: inline-block;
-  margin-right: 34px;
-  margin-top: 25px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 24px;
-}
-/* stylelint-enable */
-
 .categories a {
   color: white;
   text-decoration: none;
@@ -177,14 +153,11 @@ input {
   align-items: center;
 }
 
-/* stylelint-disable */
 .user-preference h2 {
-  font-family: 'Montserrat';
-  font-weight: 1600;
+  font-weight: 900;
   color: #000;
   padding: 15px 5px;
 }
-/* stylelint-enable */
 
 .user-preference hr {
   width: 60%;
@@ -267,27 +240,19 @@ input {
   flex-direction: column;
 }
 
-/* stylelint-disable */
 .contact_info_1 {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 300;
   font-size: 12px;
   line-height: 17px;
-  color: #ffffff;
+  color: #fff;
 }
-/* stylelint-enable */
 
-/* stylelint-disable */
 .contact_info_2 {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
 }
-/* stylelint-enable */
 
 /* -- End of header style -- */
 .directory {
@@ -312,7 +277,6 @@ input {
 }
 
 /* section 1 begins here */
-
 .sect1 {
   margin-top: 5vw;
   margin-left: 7vw;
@@ -327,7 +291,6 @@ input {
 .left-container h3 {
   color: #000;
   font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
 }
 
@@ -397,7 +360,6 @@ input {
 
 .shoe-detail h3 {
   font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -410,12 +372,6 @@ input {
   margin-left: 0.3vw;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-}
-
-.directory a span {
-  color: black;
-  font-size: 12px;
-  font-weight: 600;
 }
 
 .grid-selection h4 {
@@ -472,7 +428,6 @@ input {
   height: 3rem;
   margin: 0.5vw;
   font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   background-color: #fff;
   position: relative;
@@ -544,17 +499,13 @@ input {
   gap: 230px;
 }
 
-/* stylelint-disable */
 .desp-head h2 {
   position: absolute;
   font-size: 24px;
   font-weight: 600;
-  font-style: normal;
   line-height: 28px;
-  font-family: 'Montserrat';
   color: #191919;
 }
-/* stylelint-enable */
 
 .pp:hover h2 {
   border-bottom: 2px solid blue;
@@ -571,80 +522,59 @@ input {
   position: relative;
 }
 
-/* stylelint-disable */
 .desp-h4 {
   position: absolute;
   font-size: 24px;
   color: #000;
-  font-style: normal;
   line-height: 28px;
   font-weight: 500;
   padding-top: 20px;
-  font-family: 'Montserrat';
 }
-/* stylelint-enable */
 
-/* stylelint-disable */
 .desp-p {
-  font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   padding-top: 47px;
   position: absolute;
-  font-family: 'Montserrat';
 }
-/* stylelint-enable */
 
-/* stylelint-disable */
 .label {
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   padding-bottom: 25px;
   line-height: 28px;
   padding-top: 65px;
   position: relative;
-  font-family: 'Montserrat';
 }
-/* stylelint-enable */
 
 .label h5 {
   position: absolute;
 }
 
-/* stylelint-disable */
 .label-li {
   padding-left: 30px;
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
-  font-family: 'Montserrat';
   position: absolute;
 }
-/* stylelint-enable */
 
-/* stylelint-disable */
 .spec-label {
   padding-bottom: 60px;
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
-  font-family: 'Montserrat';
   position: absolute;
 }
 
 .specLabel {
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   padding-bottom: 25px;
   line-height: 28px;
   padding-top: 10px;
   position: relative;
-  font-family: 'Montserrat';
 }
 
 .specLabel h5 {
@@ -655,18 +585,24 @@ input {
   padding: 4px;
 }
 
+.categories ul li {
+  display: inline-block;
+  margin-right: 34px;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+
 .see2 {
   left: 90px;
   padding-top: 250px;
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 38px;
   position: absolute;
   color: #344054;
-  font-family: 'Inter';
 }
-/* stylelint-enable */
 
 .seee {
   align-items: center;
@@ -710,17 +646,13 @@ input {
   position: relative;
 }
 
-/* stylelint-disable */
 .tdx {
   font-size: 16px;
   font-weight: 500;
-  font-style: normal;
   line-height: 24px;
-  font-family: 'Inter';
   color: #667085;
 }
 
-/* stylelint-enable */
 .img-price img {
   left: 6.5%;
   right: 83%;
@@ -729,28 +661,20 @@ input {
   width: 12px;
 }
 
-/* stylelint-disable */
 .img-price {
-  font-style: normal;
   font-weight: 500;
   font-size: 23px;
   line-height: 24px;
   margin-bottom: 4px;
   margin-top: 3px;
-  font-family: 'Montserrat';
 }
-/* stylelint-enable */
 
-/* stylelint-disable */
 .types {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 5px;
-  font-family: 'Inter';
 }
-/* stylelint-enable */
 
 .light {
   color: #fdb022;
@@ -760,17 +684,13 @@ input {
   color: orange;
 }
 
-/* stylelint-disable */
 .number {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin-left: 5px;
   position: absolute;
 }
-/* stylelint-enable */
 
 .fa-chevron-right {
   font-size: 20px;
@@ -811,38 +731,27 @@ input {
   margin-top: 10px;
 }
 
-/* stylelint-disable */
-
 .sub-item h4 {
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Inter';
 }
 
 .sub-item h6 {
   font-size: 12px;
-  font-family: 'Inter';
   font-weight: 500;
 }
-
-/* stylelint-enable */
 
 .sub .subscribe {
   width: 40vw;
   display: flex;
 }
 
-/* stylelint-disable */
-
 .subscribe button {
   height: 47px;
   width: 258px;
-  background-color: #e73C17;
+  background-color: #e73c17;
   color: white;
-  font-family: 'Inter';
 }
-
-/* stylelint-enable */
 
 .foot {
   background: rgba(84, 84, 84, 1);
@@ -856,33 +765,24 @@ input {
   width: 100vw;
 }
 
-/* stylelint-disable */
-
 .foot-items h4 {
   margin-bottom: 20px;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
 }
 
 .foot-items p {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 300;
   font-size: 15px;
   margin-top: 10px;
 }
 
-/* stylelint-enable */
-
 .foot-section .icons {
   margin-top: 30px;
 }
-/* stylelint-disable */
+
 .foot-section span {
   text-decoration: underline;
 }
-/* stlelint-enable */
 
 .icons .fa-brands {
   padding: 10px;
@@ -924,6 +824,12 @@ input {
   font-size: small;
 }
 
+.directory a span {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 .dropdown button:hover {
   background-color: #45a049;
 }
@@ -937,6 +843,7 @@ input {
   .menu-toggle {
     display: none;
   }
+
   .menu-links {
     display: flex;
   }
@@ -947,7 +854,7 @@ input {
   body {
     overflow-x: hidden;
   }
-  
+
   /* header responsiveness */
   .menu-toggle {
     display: block;
@@ -976,10 +883,6 @@ input {
     z-index: 1;
   }
 
-  .menu-links.show a {
-    color: white;
-  }
-
   .contact {
     display: none;
   }
@@ -997,7 +900,7 @@ input {
     width: 118vw;
     height: 20vh;
   }
-  
+
   .base {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -1074,7 +977,7 @@ input {
     align-items: flex-start;
     right: 3.5rem;
   }
-    
+
   .directory a {
     display: flex;
     align-items: center;
@@ -1082,14 +985,8 @@ input {
     font-size: 14px;
   }
 
-  .directory a span {
-    font-size: 14px;
-  }
-
-  .directory a img {
-    margin-left: 80px;
-    height: 10px;
-    width: 10px;
+  .menu-links.show a {
+    color: white;
   }
 
   .sect1 {
@@ -1103,7 +1000,7 @@ input {
     align-items: flex-start;
     flex-wrap: wrap;
   }
-  
+
   .left-container {
     margin-left: 20px;
   }
@@ -1112,19 +1009,19 @@ input {
     font-size: 25px;
     margin-top: 14px;
   }
-  
+
   .shoe-part {
     margin-left: 0;
     justify-content: center;
   }
-  
+
   .gridA img {
     width: 100%;
     width: 270px;
     height: auto;
     margin-top: 20px;
   }
-  
+
   #grid2,
   #grid3,
   #grid4 {
@@ -1133,12 +1030,12 @@ input {
     width: 70px;
     height: 60px;
   }
-  
+
   .right-container {
-   margin-left: 3vw;
+    margin-left: 3vw;
     text-align: center;
   }
-  
+
   #ratingContainer {
     margin-top: 50px;
     margin-left: 90px;
@@ -1155,61 +1052,61 @@ input {
   .grid-selection p {
     margin-left: 0;
   }
-  
+
   .shoe-detail {
     margin-bottom: 20px;
   }
-  
+
   .shoe-detail h3 {
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  
+
   .shoe-detail span {
     margin-top: 5px;
     margin-top: 17px;
   }
-  
+
   .gridB img {
     width: 35px;
     height: 50px;
     margin: 5px;
   }
-  
+
   .select-size p {
     font-size: 14px;
     margin-left: 0;
     margin-bottom: 5px;
   }
-  
+
   .select-size button {
     width: 50px;
     height: 30px;
     margin: 5px;
     font-size: 12px;
   }
-  
+
   .select-width p {
     font-size: 14px;
     margin-left: 0;
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  
+
   .select-width button {
     width: 60px;
     height: 30px;
     margin: 5px;
     font-size: 12px;
   }
-  
+
   .add-cart button {
     width: 100%;
     margin-top: 10px;
     font-size: 14px;
   }
-  
+
   .love-icon {
     top: 0;
     left: 0;
@@ -1368,5 +1265,14 @@ input {
     width: 20px;
     height: 20px;
   }
-  
+
+  .directory a span {
+    font-size: 14px;
+  }
+
+  .directory a img {
+    margin-left: 80px;
+    height: 10px;
+    width: 10px;
+  }
 }
