@@ -236,7 +236,6 @@ function selectImage(img) {
 }
 
 function addToCart() {
-  /* eslint-enable */
   const product = {
     price: 31500,
     color: '', // Placeholder for the selected color
@@ -245,17 +244,16 @@ function addToCart() {
     image: '', // Placeholder for the selected product image
   };
 
-  if (selectedImage) {
-    product.image = selectedImage.src;
+  // Check if all required selections are made
+  if (!selectedImage || !selectedSizeButton || !selectedWidthButton) {
+    alert('Please select an image, size, and width before adding to cart.');
+    return; // Exit the function if any of the selections are missing
   }
+  /* eslint-enable */
 
-  if (selectedSizeButton) {
-    product.size = selectedSizeButton.textContent;
-  }
-
-  if (selectedWidthButton) {
-    product.width = selectedWidthButton.textContent;
-  }
+  product.image = selectedImage.src;
+  product.size = selectedSizeButton.textContent;
+  product.width = selectedWidthButton.textContent;
 
   const colorElement = document.getElementById('color');
   if (colorElement) {
