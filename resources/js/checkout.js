@@ -56,12 +56,18 @@ const finalCheckoutPrice = subtotalPrice + shippingCost + tax;
 // Set the calculated value to the checkoutTotal element
 checkoutTotal.innerHTML = `&#8358;${finalCheckoutPrice.toLocaleString()}`;
 
+// Get a reference to the button element
+const confirmOrderBtn = document.getElementById('confirmOrderBtn');
+
+// function to change the "confirm Order" button to a thank you text
+confirmOrderBtn.addEventListener('click', () => {
+  confirmOrderBtn.textContent = 'Thank you for placing your order!';
+  // Disable the button after clicking
+  confirmOrderBtn.disabled = true;
+});
+
 // function to toggle the dropdown menu on mobile view
-
-// Get the menu toggle button
 const menuToggle = document.querySelector('.menu-toggle');
-
-// Get the menu links
 const menuLinks = document.querySelector('.menu-links');
 
 // Toggle the dropdown menu when the toggle button is clicked

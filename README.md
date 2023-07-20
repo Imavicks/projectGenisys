@@ -180,15 +180,3 @@ phildeoner@gmail.com, daniel.o.umoren@gmail.com, jikhile@seamfix.com and fbadejo
 ---
 
 _**Team Genisys**_
-
-
-
-
-
-
-
-
- 
-
-
-

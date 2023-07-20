@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 30px;
   color: #fff;
   line-height: 38px;
@@ -197,6 +197,11 @@ input {
   left: 5rem;
 }
 
+.menu-links a:hover {
+  text-decoration: underline;
+  color: rgb(192, 93, 169);
+}
+
 .directory img {
   position: absolute;
   height: 10px;
@@ -214,9 +219,11 @@ input {
 /* New Section-1 paragraph after remove button is clicked */
 .message p {
   text-align: center;
+  color: grey;
   margin-top: 20px;
-  margin-left: 80px;
+  margin-left: 40px;
   font-size: 35px;
+  font-weight: 600;
 }
 
 #contdShop {
@@ -244,7 +251,7 @@ input {
 .cart-item {
   position: relative;
   display: flex;
-  left: 5rem;
+  left: 9rem;
   margin-top: 30px;
 }
 
@@ -310,17 +317,20 @@ input {
 #remove-items {
   font-size: 13px;
   text-decoration: underline;
-  margin-top: 40px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
 .checkout-button button {
-  border: none;
-  background-color: #6a1c0b;
   color: white;
-  margin-top: 2rem;
-  width: 15rem;
-  height: 2.3rem;
+  width: 17rem;
+  height: 3rem;
+  margin-top: 40px;
+  background-color: rgba(106, 28, 11, 1);
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 /* CART ITEMS ENDS HERE */
@@ -366,7 +376,7 @@ input {
   border-radius: 50%;
   padding: 3px;
   top: 60px;
-  margin-left: -10px;
+  margin-left: -25px;
 }
 
 .des-simi {
@@ -388,11 +398,12 @@ input {
   top: 68.02%;
   bottom: 22.2%;
   width: 12px;
+  height: 10px;
 }
 
 .img-price {
   font-weight: 500;
-  font-size: 23px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 4px;
   margin-top: 3px;
@@ -400,13 +411,17 @@ input {
 
 .types {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   margin-bottom: 5px;
 }
 
 .light {
   color: #fdb022;
+}
+
+.fa-star {
+  width: 12px;
 }
 
 .fa-star-half-o {
@@ -429,7 +444,7 @@ input {
   border-radius: 50%;
   padding: 3px;
   top: 60px;
-  margin-left: 90px;
+  margin-left: 100px;
 }
 
 /* section two ends here */
@@ -563,6 +578,10 @@ input {
   transform: scale(2.2);
 }
 
+.directory a:hover {
+  color: rgb(192, 93, 169);
+}
+
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
@@ -584,12 +603,12 @@ input {
     display: block;
     position: relative;
     margin-left: 50vw;
-    bottom: 10.5vh;
+    bottom: 11vh;
   }
 
   .menu-toggle img {
     height: 20px;
-    width: 30px;
+    width: 20px;
   }
 
   .menu-links {
@@ -605,10 +624,6 @@ input {
     bottom: 58vh;
     background-color: black;
     z-index: 1;
-  }
-
-  .menu-links.show a {
-    color: white;
   }
 
   .contact {
@@ -657,7 +672,7 @@ input {
   }
 
   .profile_pic {
-    margin-left: 9rem;
+    margin-left: 10rem;
     height: 20px;
     width: 25px;
     order: 1;
@@ -696,6 +711,23 @@ input {
   }
 
   /* section-1 */
+  .directory {
+    position: relative;
+    align-items: flex-start;
+    right: 3.5rem;
+  }
+
+  .directory a {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-size: 13px;
+  }
+
+  .menu-links.show a {
+    color: white;
+  }
+
   .section-1 {
     padding: 2rem;
     height: auto;
@@ -867,5 +899,16 @@ input {
   .phone img {
     width: 20px;
     height: 20px;
+  }
+
+  .directory a span {
+    font-size: 13px;
+  }
+
+  .directory a img {
+    position: absolute;
+    margin-left: 45px;
+    height: 10px;
+    width: 10px;
   }
 }
