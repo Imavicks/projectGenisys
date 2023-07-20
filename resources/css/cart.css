@@ -603,12 +603,12 @@ input {
     display: block;
     position: relative;
     margin-left: 50vw;
-    bottom: 10.5vh;
+    bottom: 11vh;
   }
 
   .menu-toggle img {
     height: 20px;
-    width: 30px;
+    width: 20px;
   }
 
   .menu-links {
@@ -624,10 +624,6 @@ input {
     bottom: 58vh;
     background-color: black;
     z-index: 1;
-  }
-
-  .menu-links.show a {
-    color: white;
   }
 
   .contact {
@@ -676,7 +672,7 @@ input {
   }
 
   .profile_pic {
-    margin-left: 9rem;
+    margin-left: 10rem;
     height: 20px;
     width: 25px;
     order: 1;
@@ -715,6 +711,23 @@ input {
   }
 
   /* section-1 */
+  .directory {
+    position: relative;
+    align-items: flex-start;
+    right: 3.5rem;
+  }
+
+  .directory a {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-size: 13px;
+  }
+
+  .menu-links.show a {
+    color: white;
+  }
+
   .section-1 {
     padding: 2rem;
     height: auto;
@@ -886,5 +899,16 @@ input {
   .phone img {
     width: 20px;
     height: 20px;
+  }
+
+  .directory a span {
+    font-size: 13px;
+  }
+
+  .directory a img {
+    position: absolute;
+    margin-left: 45px;
+    height: 10px;
+    width: 10px;
   }
 }
