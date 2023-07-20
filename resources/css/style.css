@@ -122,11 +122,6 @@ input {
   margin-left: 350px;
 }
 
-.menu-links a:hover {
-  text-decoration: underline;
-  color: rgb(192, 93, 169);
-}
-
 .categories a {
   color: white;
   text-decoration: none;
@@ -272,6 +267,11 @@ input {
   margin: 10px;
   top: 20px;
   left: 5rem;
+}
+
+.menu-links a:hover {
+  text-decoration: underline;
+  color: rgb(192, 93, 169);
 }
 
 .directory img {
@@ -835,7 +835,7 @@ input {
   font-weight: 600;
 }
 
-.directory a:hover{
+.directory a:hover {
   color: rgb(192, 93, 169);
 }
 

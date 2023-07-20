@@ -135,11 +135,6 @@ input {
   margin-left: 350px;
 }
 
-.menu-links a:hover {
-  text-decoration: underline;
-  color: rgb(192, 93, 169);
-}
-
 /* stylelint-disable */
 .categories ul li {
   display: inline-block;
@@ -200,6 +195,11 @@ input {
   margin: 10px;
   top: 20px;
   left: 5rem;
+}
+
+.menu-links a:hover {
+  text-decoration: underline;
+  color: rgb(192, 93, 169);
 }
 
 .directory img {
@@ -578,7 +578,7 @@ input {
   transform: scale(2.2);
 }
 
-.directory a:hover{
+.directory a:hover {
   color: rgb(192, 93, 169);
 }
 
