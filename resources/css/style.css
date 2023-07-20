@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 30px;
   color: #fff;
   line-height: 38px;
@@ -120,6 +120,11 @@ input {
 
 .menu {
   margin-left: 350px;
+}
+
+.menu-links a:hover {
+  text-decoration: underline;
+  color: rgb(192, 93, 169);
 }
 
 .categories a {
@@ -370,7 +375,6 @@ input {
   font-size: 1rem;
   margin-top: 0.5vw;
   margin-left: 0.3vw;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 
@@ -385,7 +389,6 @@ input {
 
 .grid-selection p {
   font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   position: relative;
   bottom: 2vw;
@@ -413,7 +416,6 @@ input {
 }
 
 .select-size p {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 15px;
   margin-left: 0.5vw;
@@ -446,7 +448,6 @@ input {
 .select-width button {
   width: 9vw;
   height: 6vh;
-  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   margin: 0.5vw;
@@ -468,7 +469,6 @@ input {
   background-color: rgba(106, 28, 11, 1);
   border-radius: 5px;
   border: none;
-  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   position: relative;
@@ -615,7 +615,7 @@ input {
 
 .simi-img {
   min-width: 150px;
-  padding: 5px 5px;
+  padding: 5px 2px;
   border: 0.1px solid rgb(128, 128, 128, 0.054);
   border-radius: 8px;
   cursor: pointer;
@@ -637,7 +637,7 @@ input {
   border-radius: 50%;
   padding: 3px;
   top: 60px;
-  margin-left: -10px;
+  margin-left: -25px;
 }
 
 .des-simi {
@@ -659,11 +659,12 @@ input {
   top: 68.02%;
   bottom: 22.2%;
   width: 12px;
+  height: 10px;
 }
 
 .img-price {
   font-weight: 500;
-  font-size: 23px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 4px;
   margin-top: 3px;
@@ -671,13 +672,17 @@ input {
 
 .types {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   margin-bottom: 5px;
 }
 
 .light {
   color: #fdb022;
+}
+
+.fa-star {
+  width: 12px;
 }
 
 .fa-star-half-o {
@@ -700,7 +705,7 @@ input {
   border-radius: 50%;
   padding: 3px;
   top: 60px;
-  margin-left: 90px;
+  margin-left: 99px;
 }
 
 /* section two ends here */
@@ -828,6 +833,10 @@ input {
   color: black;
   font-size: 12px;
   font-weight: 600;
+}
+
+.directory a:hover{
+  color: rgb(192, 93, 169);
 }
 
 .dropdown button:hover {
