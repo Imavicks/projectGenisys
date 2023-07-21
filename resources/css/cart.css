@@ -620,8 +620,8 @@ input {
     flex-direction: column;
     position: absolute;
     width: 9rem;
-    right: 16vw;
-    bottom: 58vh;
+    right: 10vw;
+    bottom: 40vh;
     background-color: black;
     z-index: 1;
   }

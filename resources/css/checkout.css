@@ -513,7 +513,7 @@ footer {
   .menu-toggle {
     display: block;
     position: relative;
-    bottom: 24vw;
+    bottom: 23.8vw;
     left: 35vw;
   }
 
@@ -531,8 +531,8 @@ footer {
     flex-direction: column;
     position: absolute;
     width: 9rem;
-    right: 16vw;
-    bottom: 58vh;
+    right: 10vw;
+    bottom: 40vh;
     background-color: black;
     z-index: 1;
   }
@@ -660,5 +660,9 @@ footer {
   .code input {
     height: 10px;
     width: 120px;
+  }
+
+  #confirmOrderBtn {
+    font-size: 10px;
   }
 }
