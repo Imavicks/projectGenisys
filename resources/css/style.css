@@ -868,7 +868,7 @@ input {
   .menu-toggle {
     display: block;
     position: relative;
-    margin-left: 67vw;
+    margin-left: 50vw;
     bottom: 10.8vh;
   }
 
@@ -916,7 +916,7 @@ input {
   }
 
   h1 {
-    font-size: 15px;
+    font-size: 30px;
     width: auto;
     padding-left: 0;
     margin-top: 0;
@@ -947,7 +947,7 @@ input {
   }
 
   .profile_pic {
-    margin-left: 10rem;
+    margin-left: 5rem;
     height: 20px;
     width: 25px;
     order: 1;
@@ -956,7 +956,7 @@ input {
   .cart {
     order: 1;
     position: relative;
-    left: 5rem;
+    left: 6rem;
     bottom: 4.5rem;
     height: 22px;
     width: 30px;

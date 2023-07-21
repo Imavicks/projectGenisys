@@ -251,7 +251,8 @@ input {
 .cart-item {
   position: relative;
   display: flex;
-  left: 9rem;
+  flex-wrap: wrap;
+  margin-left: 10vw;
   margin-top: 30px;
 }
 
@@ -602,7 +603,7 @@ input {
   .menu-toggle {
     display: block;
     position: relative;
-    margin-left: 50vw;
+    margin-left: 40vw;
     bottom: 11vh;
   }
 
@@ -641,7 +642,7 @@ input {
   }
 
   h1 {
-    font-size: 15px;
+    font-size: 30px;
     width: auto;
     padding-left: 0;
     margin-top: 0;
@@ -672,7 +673,7 @@ input {
   }
 
   .profile_pic {
-    margin-left: 10rem;
+    margin-left: 6rem;
     height: 20px;
     width: 25px;
     order: 1;
@@ -748,18 +749,14 @@ input {
     margin-left: 1rem;
   }
 
-  .cart-item {
-    margin-top: 2rem;
-    left: 0;
-  }
-
   .cart-item-image {
-    width: 40vw;
+    width: 60vw;
     height: 30vh;
   }
 
   .cart-item-details {
-    margin-left: 2rem;
+    margin-top: 5vw;
+    text-align: center;
   }
 
   .cart-item-details p {
@@ -784,13 +781,8 @@ input {
   }
 
   .quantity-button {
-    display: flex;
-    align-items: center;
-    width: 80px;
-  }
-
-  .quantity-button button {
-    padding: 0;
+    width: 90px;
+    margin: 0 auto;
   }
 
   .quantity-button img {
@@ -800,7 +792,6 @@ input {
 
   #total-count {
     font-size: 14px;
-    margin-left: 1rem;
   }
 
   #remove-items {

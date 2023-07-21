@@ -513,7 +513,7 @@ footer {
   .menu-toggle {
     display: block;
     position: relative;
-    bottom: 23.8vw;
+    bottom: 20vw;
     left: 35vw;
   }
 
@@ -556,7 +556,7 @@ footer {
   }
 
   h1 {
-    font-size: 15px;
+    font-size: 30px;
     width: auto;
     padding-left: 0;
     margin-top: 0;
@@ -587,7 +587,7 @@ footer {
   }
 
   .profile_pic {
-    margin-left: 10rem;
+    margin-left: 5rem;
     height: 20px;
     width: 25px;
     order: 1;
