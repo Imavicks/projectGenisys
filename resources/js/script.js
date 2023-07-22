@@ -128,6 +128,7 @@ function resetRating() {
   }
 }
 /* eslint-enable */
+
 // Function to change Text Content on Section 2
 const contentContainer = document.getElementById('contentContainer');
 
