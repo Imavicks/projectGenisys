@@ -513,13 +513,13 @@ footer {
   .menu-toggle {
     display: block;
     position: relative;
-    bottom: 20vw;
+    bottom: 24vw;
     left: 35vw;
   }
 
   .menu-toggle img {
     height: 20px;
-    width: 30px;
+    width: 20px;
   }
 
   .menu-links {
@@ -587,7 +587,7 @@ footer {
   }
 
   .profile_pic {
-    margin-left: 5rem;
+    margin-left: 6rem;
     height: 20px;
     width: 25px;
     order: 1;
@@ -596,14 +596,14 @@ footer {
   .cart {
     order: 1;
     position: relative;
-    left: 5rem;
+    left: 6rem;
     bottom: 4.5rem;
     height: 22px;
     width: 30px;
   }
 
   .cart-count {
-    left: 13rem;
+    left: 14rem;
     top: 20px;
   }
 
