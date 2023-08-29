@@ -285,4 +285,6 @@ menuToggle.addEventListener('click', () => {
 });
 
 // Export the functions to api.js
-export { changeGridA, changeGridBtxt, addBorderB, selectImage, selectWidth, selectSize, addToCart };
+export {
+  changeGridA, changeGridBtxt, addBorderB, selectImage, selectWidth, selectSize, addToCart,
+};
