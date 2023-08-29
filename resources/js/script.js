@@ -283,3 +283,6 @@ const menuLinks = document.querySelector('.menu-links');
 menuToggle.addEventListener('click', () => {
   menuLinks.classList.toggle('show');
 });
+
+// Export the functions to api.js
+export { changeGridA, changeGridBtxt, addBorderB, selectImage, selectWidth, selectSize, addToCart };
